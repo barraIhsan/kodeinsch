@@ -31,7 +31,7 @@ export default function Navbar() {
           <div className="flex items-center gap-4">
             <Link href="/">
               <Image
-                src="logo.svg"
+                src="/img/logo.svg"
                 alt="Kodein Logo"
                 width={111}
                 height={56}
