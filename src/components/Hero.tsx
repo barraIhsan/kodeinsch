@@ -16,7 +16,7 @@ export default function Hero() {
             dan berintegritas melalui pendidikan modern dan moral kuat.
           </p>
         </div>
-        <div className="border-y xl:border-t border-gray-400/50 px-5 py-4 flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-center mt-14 relative">
+        <div className="border-y xl:border-t xl:border-b-0 border-gray-400/50 px-5 py-4 flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-center mt-14 relative">
           <div>
             <p className="font-bold">Pendaftaran Masih Dibuka!</p>
             <p className="text-gray-400 text-sm">
