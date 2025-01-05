@@ -5,7 +5,7 @@ import { collage } from "@/constants/images";
 
 export default function Hero() {
   return (
-    <main className="container mx-auto xl:h-[max(60rem,100vh)] overflow-x-hidden flex flex-col xl:flex-row gap-12 2xl:gap-24 justify-center items-center py-40 md:py-48 px-5 sm:px-12">
+    <main className="container mx-auto xl:h-[max(60rem,100vh)] overflow-hidden flex flex-col xl:flex-row gap-12 2xl:gap-24 justify-center items-center py-40 md:py-48 px-5 sm:px-12">
       <div className="">
         <div className="max-w-[70ch] space-y-5">
           <h1 className="font-extrabold text-4xl xl:text-6xl">
