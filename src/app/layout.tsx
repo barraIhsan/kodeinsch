@@ -7,6 +7,7 @@ const rethink_sans = Rethink_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "KODEIN Boarding School",
   description: "",
+  icons: "/img/logo.svg",
 };
 
 export default function RootLayout({
