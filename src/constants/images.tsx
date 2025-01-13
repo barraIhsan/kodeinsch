@@ -68,3 +68,29 @@ export const collage: Array<{
     height: 2268,
   },
 ];
+
+export const program: Array<{
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+}> = [
+  {
+    src: "/img/program/0.svg",
+    alt: "",
+    width: 462,
+    height: 194,
+  },
+  {
+    src: "/img/program/1.svg",
+    alt: "",
+    width: 462,
+    height: 192,
+  },
+  {
+    src: "/img/program/2.svg",
+    alt: "",
+    width: 462,
+    height: 192,
+  },
+]
