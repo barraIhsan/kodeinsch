@@ -26,7 +26,7 @@ export default function Navbar() {
   const [navMobileOpen, setNavMobileOpen] = useState(false);
   return (
     <>
-      <nav className="bg-white backdrop-blur-lg fixed z-50 inset-x-0">
+      <nav className="bg-white/70 backdrop-blur-lg fixed z-50 inset-x-0">
         <div className="container flex justify-between items-center px-5 md:px-12 py-5 mx-auto">
           <div className="flex items-center gap-4">
             <Link href="/">
