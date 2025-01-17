@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import { carousel } from "@/constants/images";
+import { carousels } from "@/constants/images";
 import {
   Carousel,
   CarouselApi,
@@ -64,14 +64,17 @@ export default function Hero() {
         plugins={[carouselPlugin.current]}
       >
         <CarouselContent className="h-72 lg:w-full lg:h-[32rem] cursor-grab">
-          {collage.map((img, idx) => (
-            <CarouselItem key={idx}>
-              <Image {...img} className="size-full object-cover rounded-xl" />
+          {carousels.map((carousel, index) => (
+            <CarouselItem key={index}>
+              <Image
+                {...carousel}
+                className="size-full object-cover rounded-xl"
+              />
             </CarouselItem>
           ))}
         </CarouselContent>
         <div className="absolute -bottom-8 inset-x-0 w-fit mx-auto flex justify-center gap-2 p-1 bg-gray-100 border border-gray-200 rounded-full">
-          {Array.from({ length: collage.length }).map((_, index) => (
+          {Array.from({ length: carousels.length }).map((_, index) => (
             <div
               key={index}
               className={cn(
