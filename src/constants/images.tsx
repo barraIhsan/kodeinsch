@@ -66,5 +66,43 @@ export const collage: Array<{
     alt: "",
     width: 4032,
     height: 2268,
+  }
+];
+
+export const affiliates: Array<{
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+}> = [
+  {
+    src : "/img/afiliasi/ccit.png",
+    alt: "",
+    width: 84,
+    height: 108,
   },
+  {
+    src : "/img/afiliasi/brawijaya.png",
+    alt: "",
+    width: 106,
+    height: 106,
+  },
+  {
+    src : "/img/afiliasi/politeknik.png",
+    alt: "",
+    width: 114,
+    height: 108,
+  },
+  {
+    src : "/img/afiliasi/shratech.png",
+    alt: "",
+    width: 157,
+    height: 94,
+  },
+  {
+    src : "/img/afiliasi/lazsip.png",
+    alt: "",
+    width: 82,
+    height: 108,
+  }
 ];
