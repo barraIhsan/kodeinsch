@@ -38,7 +38,7 @@ export default function Navbar() {
                 className="h-8 w-fit"
               />
             </Link>
-            <NavigationMenu className="hidden lg:flex">
+            <NavigationMenu className={"hidden lg:flex"}>
               <NavigationMenuList>
                 {leftMenus.map((menu, index) => (
                   <NavigationMenuItem key={index}>
