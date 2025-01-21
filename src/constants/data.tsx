@@ -89,5 +89,59 @@ export const programs: Array<{
     desc: "Dua bulan di Pare Kampung Inggris akan memperkuat kemampuan Bahasa Inggris siswa, memastikan komunikasi efektif dalam dunia digital.",
     href: "#",
     image: 2
+
+export const footerLinks: Array<{
+  title: string;
+  links: Array<{
+    label: string;
+    href: string;
+  }>;
+}> = [
+  {
+    title: "Sekolah",
+    links: [
+      {
+        label: "Tentang",
+        href: "#",
+      },
+      {
+        label: "Berita",
+        href: "#",
+      },
+      {
+        label: "Akademik",
+        href: "#",
+      },
+      {
+        label: "Kontak",
+        href: "#",
+      },
+    ],
   },
-]
+  {
+    title: "Siswa",
+    links: [
+      {
+        label: "Kegiatan",
+        href: "#",
+      },
+      {
+        label: "Portfolio",
+        href: "#",
+      },
+    ],
+  },
+  {
+    title: "PPDB",
+    links: [
+      {
+        label: "School Tour",
+        href: "#",
+      },
+      {
+        label: "Daftar",
+        href: "#",
+      },
+    ],
+  },
+];
