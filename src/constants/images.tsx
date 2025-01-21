@@ -104,5 +104,11 @@ export const affiliates: Array<{
     alt: "",
     width: 82,
     height: 108,
+  },
+  {
+    src : "/img/afiliasi/Rabbani.png",
+    alt: "",
+    width: 114,
+    height: 62,
   }
 ];
