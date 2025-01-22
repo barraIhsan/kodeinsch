@@ -17,7 +17,7 @@ export default function Footer() {
     <footer className="flex justify-center items-center 2xl:px-32 px-5 sm:px-8 lg:px-20 py-12 lg:py-16 2xl:py-24">
       <div className="flex flex-col gap-6 lg:gap-10 shadow-xl border border-black/20 rounded-xl size-full px-5 sm:px-12 lg:px-16 py-5 sm:py-10">
         <div className="flex flex-col gap-16 lg:flex-row justify-between pt-4">
-          <div className="flex justify-center sm:justify-start">
+          <div className="flex justify-center items-start">
             <Image
               width={535}
               height={86}
