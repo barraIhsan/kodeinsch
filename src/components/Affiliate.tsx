@@ -22,8 +22,16 @@ export default function Affiliate() {
           ))}
         </div>
       </section>
-      <section className="flex flex-row-reverse justify-between items-center container mx-auto px-14 py-64">
-        <div className="">
+      <section className="flex flex-row justify-between items-center container mx-auto px-14 py-64 gap-10">
+        <iframe
+          width="620"
+          height="350"
+          src="https://www.youtube.com/embed/TKXxJbiQpIE?si=VhYwyKnBTNmAOVyr"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          className="rounded-3xl"
+        />
+        <div>
           <h2 className="text-5xl max-w-lg font-extrabold text-gray-900 mb-4">
             Pentingnya Belajar IT di Era Modern
           </h2>
@@ -34,14 +42,6 @@ export default function Affiliate() {
             interaksi digital, menjadikannya elemen vital untuk masa depan.
           </p>
         </div>
-        <iframe
-          width="620"
-          height="350"
-          src="https://www.youtube.com/embed/TKXxJbiQpIE?si=VhYwyKnBTNmAOVyr"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          className="rounded-3xl"
-        />
       </section>
     </>
   );
