@@ -27,9 +27,7 @@ export default function Affiliate() {
           width="620"
           height="350"
           src="https://www.youtube.com/embed/TKXxJbiQpIE?si=VhYwyKnBTNmAOVyr"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          className="rounded-3xl"
+          className="rounded-3xl border-none"
         />
         <div>
           <h2 className="text-5xl max-w-lg font-extrabold text-gray-900 mb-4">
