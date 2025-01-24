@@ -69,25 +69,21 @@ export const programs: Array<{
   title: string;
   desc: string;
   href: string;
-  image: number;
 }> = [
   {
     title: "Qur'an Camp",
     desc: "Siswa akan memoles kemampuan tilawah mereka di Pare, belajar tajwid dan makhraj, serta memperdalam hubungan spiritual dengan Al-Qur'an.",
     href: "#",
-    image: 0,
   },
   {
     title: "English Camp",
     desc: "Dua bulan di Pare Kampung Inggris akan memperkuat kemampuan Bahasa Inggris siswa, memastikan komunikasi efektif dalam dunia digital.",
     href: "#",
-    image: 1,
   },
   {
     title: "Kodein Incubator",
     desc: "Dua bulan di Pare Kampung Inggris akan memperkuat kemampuan Bahasa Inggris siswa, memastikan komunikasi efektif dalam dunia digital.",
     href: "#",
-    image: 2,
   },
 ];
 

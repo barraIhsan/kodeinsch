@@ -71,26 +71,30 @@ export const collage: Array<{
 
 export const program: Array<{
   src: string;
+  logo: string;
   alt: string;
   width: number;
   height: number;
 }> = [
   {
-    src: "/img/program/0.svg",
+    src: "/img/program/1.png",
+    logo: "/img/program/logo1.svg",
     alt: "",
-    width: 462,
-    height: 194,
+    width: 1600,
+    height: 1204,
   },
   {
-    src: "/img/program/1.svg",
+    src: "/img/program/2.png",
+    logo: "/img/program/logo2.svg",
     alt: "",
-    width: 462,
-    height: 192,
+    width: 1072,
+    height: 712,
   },
   {
-    src: "/img/program/2.svg",
+    src: "/img/program/3.png",
+    logo: "/img/program/logo3.svg",
     alt: "",
-    width: 462,
-    height: 192,
+    width: 1280,
+    height: 853,
   },
-]
+];
