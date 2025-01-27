@@ -1,12 +1,40 @@
+/* eslint-disable jsx-a11y/alt-text */
+"use client";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import { collage } from "@/constants/images";
+import { carousels } from "@/constants/images";
+import {
+  Carousel,
+  CarouselApi,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
+import React from "react";
+import { cn } from "@/lib/utils";
 
 export default function Hero() {
+  const carouselPlugin = React.useRef(
+    Autoplay({ delay: 3500, stopOnInteraction: false }),
+  );
+  const [api, setApi] = React.useState<CarouselApi>();
+  const [current, setCurrent] = React.useState(0);
+
+  React.useEffect(() => {
+    if (!api) {
+      return;
+    }
+
+    setCurrent(api.selectedScrollSnap() + 1);
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap() + 1);
+    });
+  }, [api]);
+
   return (
     <main className="container mx-auto xl:h-[max(60rem,100vh)] overflow-hidden flex flex-col xl:flex-row gap-12 2xl:gap-24 justify-center items-center py-40 md:py-48 px-5 sm:px-12">
-      <div className="">
+      <div className="flex-1">
         <div className="max-w-[70ch] space-y-5">
           <h1 className="font-extrabold text-4xl xl:text-6xl">
             Boarding School dengan fokus IT dan Multimedia
@@ -30,55 +58,33 @@ export default function Hero() {
           <div className="absolute -left-2 -top-3 size-5 rounded-full bg-red-600" />
         </div>
       </div>
-      {/* eslint-disable jsx-a11y/alt-text */}
-      <div className="h-[45rem] w-[42rem] grid grid-cols-[3fr,2fr] grid-rows-[1fr,1fr,1fr,2fr] gap-3">
-        <div className="bg-gray-100 rounded-2xl p-5 flex gap-1 overflow-hidden">
-          <Image
-            {...collage[0]}
-            className="size-36 xl:size-28 2xl:size-36 object-cover border-4 border-white rounded-xl object-right shadow-lg"
-          />
-          <Image
-            {...collage[1]}
-            className="size-36 xl:size-28 2xl:size-36 object-cover border-4 border-white rounded-t-xl object-left shadow-lg"
-          />
-          <Image
-            {...collage[2]}
-            className="size-36 xl:size-28 2xl:size-36 object-cover border-4 border-white rounded-xl object-right shadow-lg"
-          />
+      <Carousel
+        setApi={setApi}
+        className="flex-1 relative"
+        plugins={[carouselPlugin.current]}
+      >
+        <CarouselContent className="h-72 lg:w-full lg:h-[32rem] cursor-grab">
+          {carousels.map((carousel, index) => (
+            <CarouselItem key={index}>
+              <Image
+                {...carousel}
+                className="size-full object-cover rounded-xl"
+              />
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        <div className="absolute -bottom-8 inset-x-0 w-fit mx-auto flex justify-center gap-2 p-1 bg-gray-100 border border-gray-200 rounded-full">
+          {Array.from({ length: carousels.length }).map((_, index) => (
+            <div
+              key={index}
+              className={cn(
+                "size-3 rounded-full transition-colors duration-500",
+                current - 1 === index ? "bg-black" : "bg-black/15",
+              )}
+            ></div>
+          ))}
         </div>
-        <div className="bg-gray-100 rounded-2xl row-span-2 p-3 2xl:p-5 overflow-hidden relative">
-          <Image
-            {...collage[3]}
-            className="w-56 xl:w-48 2xl:w-56 h-40 xl:h-32 2xl:h-40 border-4 border-white rounded-xl object-cover absolute -right-5 2xl:-right-12 shadow-lg"
-          />
-          <Image
-            {...collage[4]}
-            className="w-52 xl:w-48 2xl:w-52 h-32 xl:h-28 2xl:h-32 border-4 border-white rounded-xl object-cover absolute bottom-5 shadow-lg"
-          />
-        </div>
-        <div className="bg-gray-100 rounded-2xl row-span-2 overflow-hidden">
-          <Image {...collage[5]} className="size-full object-cover" />
-        </div>
-        <div className="bg-gray-100 rounded-2xl overflow-hidden">
-          <Image {...collage[6]} className="size-full object-cover" />
-        </div>
-        <div className="bg-gray-100 rounded-2xl p-5 flex gap-1 overflow-hidden">
-          <Image
-            {...collage[7]}
-            className="size-56 border-4 border-white rounded-xl object-cover shadow-lg"
-          />
-          <Image
-            {...collage[8]}
-            className="size-56 border-4 border-white rounded-xl object-cover shadow-lg shrink-0"
-          />
-        </div>
-        <div className="bg-gray-100 rounded-2xl px-4 2xl:px-6 py-5 2xl:py-9 overflow-hidden">
-          <Image
-            {...collage[9]}
-            className="w-60 h-64 object-cover rounded-xl border-4 border-white shadow-lg"
-          />
-        </div>
-      </div>
+      </Carousel>
     </main>
   );
 }

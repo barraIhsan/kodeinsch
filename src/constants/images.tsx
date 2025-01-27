@@ -1,4 +1,4 @@
-export const collage: Array<{
+export const carousels: Array<{
   src: string;
   alt: string;
   width: number;
