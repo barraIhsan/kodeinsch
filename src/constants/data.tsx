@@ -64,3 +64,81 @@ export const rightMenus: Array<{
       "bg-gradient-to-b from-[#4385DC] to-[#1B52C8] hover:from-[#1B52C8] hover:to-[#4385DC]",
   },
 ];
+
+export const programs: Array<{
+  title: string;
+  desc: string;
+  href: string;
+}> = [
+  {
+    title: "Qur'an Camp",
+    desc: "Siswa akan memoles kemampuan tilawah mereka di Pare, belajar tajwid dan makhraj, serta memperdalam hubungan spiritual dengan Al-Qur'an.",
+    href: "#",
+  },
+  {
+    title: "English Camp",
+    desc: "Dua bulan di Pare Kampung Inggris akan memperkuat kemampuan Bahasa Inggris siswa, memastikan komunikasi efektif dalam dunia digital.",
+    href: "#",
+  },
+  {
+    title: "Kodein Incubator",
+    desc: "Dua bulan di Pare Kampung Inggris akan memperkuat kemampuan Bahasa Inggris siswa, memastikan komunikasi efektif dalam dunia digital.",
+    href: "#",
+  },
+];
+
+export const footerLinks: Array<{
+  title: string;
+  links: Array<{
+    label: string;
+    href: string;
+  }>;
+}> = [
+  {
+    title: "Sekolah",
+    links: [
+      {
+        label: "Tentang",
+        href: "#",
+      },
+      {
+        label: "Berita",
+        href: "#",
+      },
+      {
+        label: "Akademik",
+        href: "#",
+      },
+      {
+        label: "Kontak",
+        href: "#",
+      },
+    ],
+  },
+  {
+    title: "Siswa",
+    links: [
+      {
+        label: "Kegiatan",
+        href: "#",
+      },
+      {
+        label: "Portfolio",
+        href: "#",
+      },
+    ],
+  },
+  {
+    title: "PPDB",
+    links: [
+      {
+        label: "School Tour",
+        href: "#",
+      },
+      {
+        label: "Daftar",
+        href: "#",
+      },
+    ],
+  },
+];
