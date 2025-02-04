@@ -24,9 +24,19 @@ import { leftMenus, rightMenus } from "@/constants/data";
 
 export default function Navbar() {
   const [navMobileOpen, setNavMobileOpen] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
+
+  window.addEventListener("scroll", () => {
+    setScrollY(window.scrollY);
+  });
   return (
     <>
-      <nav className="bg-white/70 backdrop-blur-lg fixed z-50 inset-x-0">
+      <nav
+        className={cn(
+          `bg-white fixed border-black/10 z-50 inset-x-0`,
+          scrollY == 0 ? "" : "border-b",
+        )}
+      >
         <div className="container flex justify-between items-center px-5 md:px-12 py-5 mx-auto">
           <div className="flex items-center gap-4">
             <Link href="/">
