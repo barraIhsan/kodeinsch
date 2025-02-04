@@ -24,9 +24,19 @@ import { leftMenus, rightMenus } from "@/constants/data";
 
 export default function Navbar() {
   const [navMobileOpen, setNavMobileOpen] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
+
+  window.addEventListener("scroll", () => {
+    setScrollY(window.scrollY);
+  });
   return (
     <>
-      <nav className="bg-white/70 backdrop-blur-lg fixed z-50 inset-x-0">
+      <nav
+        className={cn(
+          `bg-white fixed border-black/10 z-50 inset-x-0`,
+          scrollY == 0 ? "" : "border-b",
+        )}
+      >
         <div className="container flex justify-between items-center px-5 md:px-12 py-5 mx-auto">
           <div className="flex items-center gap-4">
             <Link href="/">
@@ -74,7 +84,10 @@ export default function Navbar() {
 
                     {/* For normal link */}
                     {!menu.menus && (
-                      <Link href={menu.href}>
+                      <Link
+                        href={menu.href}
+                        target={menu.newTab ? "_blank" : "_self"}
+                      >
                         <NavigationMenuLink
                           className={cn(
                             navigationMenuTriggerStyle(),
@@ -97,7 +110,12 @@ export default function Navbar() {
                   variant={menu.btnVariant}
                   className={cn(menu.className, "hidden lg:inline-flex")}
                 >
-                  <Link href={menu.href}>{menu.label}</Link>
+                  <Link
+                    href={menu.href}
+                    target={menu.newTab ? "_blank" : "_self"}
+                  >
+                    {menu.label}
+                  </Link>
                 </Button>
               </li>
             ))}
@@ -154,7 +172,11 @@ export default function Navbar() {
                                 variant="link"
                                 className="p-0 font-normal"
                               >
-                                <Link href={submenu.href} className="text-lg">
+                                <Link
+                                  href={submenu.href}
+                                  target={menu.newTab ? "_blank" : "_self"}
+                                  className="text-lg"
+                                >
                                   {submenu.label}
                                 </Link>
                               </Button>
@@ -169,7 +191,12 @@ export default function Navbar() {
                       variant="link"
                       className="px-0 py-4 font-medium text-xl leading-none"
                     >
-                      <Link href={menu.href}>{menu.label}</Link>
+                      <Link
+                        href={menu.href}
+                        target={menu.newTab ? "_blank" : "_self"}
+                      >
+                        {menu.label}
+                      </Link>
                     </Button>
                   )}
                 </AccordionItem>
@@ -179,7 +206,12 @@ export default function Navbar() {
               {rightMenus.map((menu, index) => (
                 <li key={index}>
                   <Button variant={menu.btnVariant} className={menu.className}>
-                    <Link href={menu.href}>{menu.label}</Link>
+                    <Link
+                      href={menu.href}
+                      target={menu.newTab ? "_blank" : "_self"}
+                    >
+                      {menu.label}
+                    </Link>
                   </Button>
                 </li>
               ))}
