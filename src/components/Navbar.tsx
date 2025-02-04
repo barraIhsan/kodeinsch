@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
@@ -26,9 +26,11 @@ export default function Navbar() {
   const [navMobileOpen, setNavMobileOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 
-  window.addEventListener("scroll", () => {
-    setScrollY(window.scrollY);
-  });
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScrollY(window.scrollY);
+    });
+  }, []);
   return (
     <>
       <nav
