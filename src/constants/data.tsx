@@ -8,42 +8,43 @@ export const leftMenus: Array<{
     href: string;
   }>;
 }> = [
-  {
-    label: "Sekolah Kami",
-    href: "#",
-    menus: [
-      {
-        label: "Tentang Kami",
-        desc: "lorem ipsum dolor sit amet",
-        href: "#",
-      },
-      {
-        label: "Akademik",
-        desc: "lorem ipsum dolor sit amet",
-        href: "#",
-      },
-    ],
-  },
-  {
-    label: "Student Life",
-    href: "#",
-    menus: [
-      {
-        label: "Kegiatan Siswa",
-        desc: "lorem ipsum dolor sit amet",
-        href: "#",
-      },
-      {
-        label: "Portfolio",
-        desc: "lorem ipsum dolor sit amet",
-        href: "#",
-      },
-    ],
-  },
-  {
-    label: "News",
-    href: "#",
-  },
+  // TODO: For the time being, leave this empty for prod
+  // {
+  //   label: "Sekolah Kami",
+  //   href: "#",
+  //   menus: [
+  //     {
+  //       label: "Tentang Kami",
+  //       desc: "lorem ipsum dolor sit amet",
+  //       href: "#",
+  //     },
+  //     {
+  //       label: "Akademik",
+  //       desc: "lorem ipsum dolor sit amet",
+  //       href: "#",
+  //     },
+  //   ],
+  // },
+  // {
+  //   label: "Student Life",
+  //   href: "#",
+  //   menus: [
+  //     {
+  //       label: "Kegiatan Siswa",
+  //       desc: "lorem ipsum dolor sit amet",
+  //       href: "#",
+  //     },
+  //     {
+  //       label: "Portfolio",
+  //       desc: "lorem ipsum dolor sit amet",
+  //       href: "#",
+  //     },
+  //   ],
+  // },
+  // {
+  //   label: "News",
+  //   href: "#",
+  // },
 ];
 
 export const rightMenus: Array<{
