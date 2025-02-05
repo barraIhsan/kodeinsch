@@ -43,7 +43,7 @@ export default function Footer() {
                 {footerLink.links.map((link, index) => (
                   <li
                     key={index}
-                    className="text-lg lg:text-base 2xl:text-xl text-gray-400 hover:text-gray-500 transition-colors"
+                    className="text-lg lg:text-base 2xl:text-xl text-gray-500 hover:text-gray-600 transition-colors"
                   >
                     <a href={link.href}>{link.label}</a>
                   </li>
@@ -65,22 +65,22 @@ export default function Footer() {
         </Button>
       </div>
       <div className="flex flex-col gap-3 md:flex-row justify-between py-5">
-        <small className="text-gray-400 2xl:text-base text-center md:text-left">
+        <small className="text-gray-500 2xl:text-base text-center md:text-left">
           Copyright &copy;{new Date().getFullYear()} Sekolah Developer
           Indonesia. All Rights Reserved. Powered By Tim Creative
         </small>
         <div className="flex justify-center md:justify-start gap-3 2xl:gap-6">
           <a href="#">
-            <SiFacebook className="size-4 2xl:size-6 text-gray-400 hover:text-gray-500 transition-colors" />
+            <SiFacebook className="size-4 2xl:size-6 text-gray-500 hover:text-gray-600 transition-colors" />
           </a>
           <a href="#">
-            <SiYoutube className="size-4 2xl:size-6 text-gray-400 hover:text-gray-500 transition-colors" />
+            <SiYoutube className="size-4 2xl:size-6 text-gray-500 hover:text-gray-600 transition-colors" />
           </a>
           <a href="#">
-            <SiInstagram className="size-4 2xl:size-6 text-gray-400 hover:text-gray-500 transition-colors" />
+            <SiInstagram className="size-4 2xl:size-6 text-gray-500 hover:text-gray-600 transition-colors" />
           </a>
           <a href="#">
-            <SiTiktok className="size-4 2xl:size-6 text-gray-400 hover:text-gray-500 transition-colors" />
+            <SiTiktok className="size-4 2xl:size-6 text-gray-500 hover:text-gray-600 transition-colors" />
           </a>
         </div>
       </div>

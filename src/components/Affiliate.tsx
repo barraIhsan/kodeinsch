@@ -10,7 +10,7 @@ export default function Affiliate() {
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
             Afiliasi Kami
           </h2>
-          <p className="text-gray-400 text-lg md:text-xl  font-thin max-w-3xl">
+          <p className="text-gray-500 text-lg md:text-xl  font-thin max-w-3xl">
             Afiliasi antara lembaga, memberikan siswa akses ke program tambahan,
             beasiswa, dan peluang pertukaran pelajar, yang memperluas wawasan
             dan jaringan mereka untuk masa depan.
@@ -31,7 +31,7 @@ export default function Affiliate() {
           <h2 className="text-4xl md:text-5xl max-w-lg font-extrabold text-gray-900 mb-4">
             Pentingnya Belajar IT di Era Modern
           </h2>
-          <p className="text-gray-400 text-lg md:text-xl font-thin max-w-2xl">
+          <p className="text-gray-500 text-lg md:text-xl font-thin max-w-2xl">
             Information Technology (IT) sangat penting di era modern karena
             mendukung efisiensi, inovasi, dan konektivitas. TI memungkinkan
             bisnis global, otomatisasi, dan analisis data, serta melindungi

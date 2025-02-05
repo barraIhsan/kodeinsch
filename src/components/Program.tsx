@@ -36,7 +36,7 @@ export default function Program() {
               <h5 className="text-lg sm:text-xl lg:text-2xl font-bold">
                 {program.title}
               </h5>
-              <p className="text-sm sm:text-base text-gray-400 mt-2 mb-8">
+              <p className="text-sm sm:text-base text-gray-500 mt-2 mb-8">
                 {program.desc}
               </p>
               <Button variant="outline" className="px-6 py-3">

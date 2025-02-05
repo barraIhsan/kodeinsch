@@ -50,7 +50,7 @@ export default function Roadmap() {
                         <p className="font-bold after:content-[':']">
                           {item.title}
                         </p>
-                        <p>{item.desc}</p>
+                        <p className="text-gray-500">{item.desc}</p>
                       </div>
                     ))}
                   </AccordionContent>
