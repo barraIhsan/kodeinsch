@@ -142,3 +142,35 @@ export const program: Array<{
     height: 853,
   },
 ];
+
+export const About: Array<{
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+}> = [
+  {
+    src: "/img/about/about.png",
+    alt: "",
+    width: 4032,
+    height: 2268,
+  },
+  {
+    src: "/img/about/logoCode.svg",
+    alt: "",
+    width: 80,
+    height: 80,
+  },
+  {
+    src: "/img/about/logoDiniyah.svg",
+    alt: "",
+    width: 80,
+    height: 80,
+  },
+  {
+    src: "/img/about/logoKemendik.png",
+    alt: "",
+    width: 80,
+    height: 80,
+  },
+];

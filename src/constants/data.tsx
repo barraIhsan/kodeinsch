@@ -87,6 +87,28 @@ export const programs: Array<{
   },
 ];
 
+export const curriculums: Array<{
+  title: string;
+  logo: string;
+  list: Array<string>
+}> = [
+  {
+    title: "Materi Diniyah",
+    logo: "/img/about/logoDiniyah.svg",
+    list: ["Tauhid","Tahfidz","Tafsir","Hadist","Fiqih","Siroh",]
+  },
+  {
+    title: "Materi IT(Information Technology)",
+    logo: "/img/about/logoCode.svg",
+    list: ["Web Programming","Mobile Programming","UI/UX","Database","Graphic Design","Motion Graphic","Video Editing","Networking","IoT",]
+  },
+  {
+    title: "Materi Diknas",
+    logo: "/img/about/logoKemendik.png",
+    list: ["Matematika","Bahasa Indonesia","Bahasa Inggris","IPA Terpadu","IPS Terpadu","PKN","Try Out UTBK",]
+  },
+]
+
 export const footerLinks: Array<{
   title: string;
   links: Array<{
