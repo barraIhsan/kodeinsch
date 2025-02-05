@@ -36,15 +36,15 @@ export default function Roadmap() {
               {roadmap.map((items, index) => (
                 <AccordionItem
                   value={(index + 1).toString()}
-                  className="border-none"
+                  className="border-none bg-white rounded-2xl"
                   key={index}
                 >
-                  <AccordionTrigger className="border-none px-10 py-5 bg-white rounded-t-2xl duration-300 data-[state=closed]:rounded-2xl font-extrabold text-3xl hover:no-underline sm:gap-28">
+                  <AccordionTrigger className="border-none px-10 py-5 font-extrabold text-3xl hover:no-underline sm:gap-28">
                     <p className="text-transparent bg-gradient-to-b from-[#2B66CF] to-[#2058CA] bg-clip-text">
                       Semester {count++}
                     </p>
                   </AccordionTrigger>
-                  <AccordionContent className="px-10 py-5 bg-white rounded-b-2xl space-y-4 text-lg sm:text-xl border-t">
+                  <AccordionContent className="px-10 py-5 space-y-4 text-lg sm:text-xl border-t">
                     {items.map((item, index) => (
                       <div key={index} className="max-w-[23ch]">
                         <p className="font-bold after:content-[':']">
