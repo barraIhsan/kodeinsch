@@ -87,7 +87,7 @@ export const programs: Array<{
   },
   {
     title: "Kodein Incubator",
-    desc: "Dua bulan di Pare Kampung Inggris akan memperkuat kemampuan Bahasa Inggris siswa, memastikan komunikasi efektif dalam dunia digital.",
+    desc: "Di Kodein Incubator, siswa terlibat dalam proyek internal sebagai simulasi dunia kerja, membekali mereka dengan pengalaman yang relevan untuk proyek eksternal.",
     href: "#",
   },
 ];
