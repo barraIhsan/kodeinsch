@@ -24,7 +24,7 @@ export default function Affiliate() {
       </section>
       <section className="flex flex-col xl:flex-row justify-between items-center container mx-auto px-5 sm:px-12 pb-12 xl:pb-64 pt-40 xl:pt-64 gap-20 md:gap-16">
         <iframe
-          src="https://www.youtube.com/embed/TKXxJbiQpIE?si=VhYwyKnBTNmAOVyr"
+          src="https://www.youtube.com/embed/ibJ0lpj1a0E"
           className="flex-1 rounded-3xl border-none aspect-video size-full"
         />
         <div className="flex-1">
