@@ -17,7 +17,7 @@ export default function Home() {
       <Affiliate />
 
       {/* Orange Section */}
-      <div className="relative container mx-auto px-5 py-12 mt-12 rounded-2xl bg-gradient-to-b from-[#FF9D2D] to-kodein-orange">
+      <div className="relative container mx-auto px-5 py-12 mt-12 sm:rounded-2xl bg-gradient-to-b from-[#FF9D2D] to-kodein-orange">
         <Roadmap />
 
         <Image
