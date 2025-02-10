@@ -19,24 +19,30 @@ export default function Roadmap() {
             {index % 2 == 1 && (
               <>
                 <div className="hidden lg:block" />
-                <div className="lg:flex justify-center items-center bg-gradient-to-b from-[#2F6CD1] to-[#1A53C8] rounded-2xl size-44 relative z-10 hidden">
-                  <p className="font-extrabold text-4xl text-white">1{index}</p>
+                <div className="relative z-10 lg:block hidden">
+                  <div className="flex justify-center items-center bg-gradient-to-b from-[#2F6CD1] to-[#1A53C8] relative rounded-2xl size-44 bg-clip-padding border-2 border-transparent before:absolute before:inset-0 before:-z-10 before:rounded-[inherit] before:-m-[2px] before:bg-gradient-to-b before:from-[#4385DC] before:to-[#1B52C8]">
+                    <p className="font-extrabold text-4xl text-white">
+                      1{index}
+                    </p>
+                  </div>
                 </div>
               </>
             )}
-            <div
-              className={
-                `flex justify-center items-center bg-gradient-to-b from-[#2F6CD1] to-[#1A53C8] rounded-2xl size-44 relative z-10 lg:hidden mx-auto` +
-                (index != 0 ? " mt-12" : "")
-              }
-            >
-              <p className="font-extrabold text-4xl text-white">1{index}</p>
+            <div className="relative z-10 lg:hidden block">
+              <div
+                className={
+                  `flex justify-center items-center bg-gradient-to-b from-[#2F6CD1] to-[#1A53C8] rounded-2xl size-44 relative mx-auto bg-clip-padding border-2 border-transparent before:absolute before:inset-0 before:-z-10 before:rounded-[inherit] before:-m-[2px] before:bg-gradient-to-b before:from-[#4385DC] before:to-[#1B52C8]` +
+                  (index != 0 ? " mt-12" : "")
+                }
+              >
+                <p className="font-extrabold text-4xl text-white">1{index}</p>
+              </div>
             </div>
             <Accordion type="multiple" key={index} className="space-y-4 z-10">
               {roadmap.map((items, index) => (
                 <AccordionItem
                   value={(index + 1).toString()}
-                  className="border-none bg-white rounded-2xl"
+                  className="border-none bg-white rounded-2xl shadow-lg"
                   key={index}
                 >
                   <AccordionTrigger className="border-none px-10 py-5 font-extrabold text-3xl hover:no-underline sm:gap-28">
@@ -59,8 +65,12 @@ export default function Roadmap() {
             </Accordion>
             {index % 2 == 0 && (
               <>
-                <div className="lg:flex justify-center items-center bg-gradient-to-b from-[#2F6CD1] to-[#1A53C8] rounded-2xl size-44 relative z-10 hidden">
-                  <p className="font-extrabold text-4xl text-white">1{index}</p>
+                <div className="relative z-10 lg:block hidden">
+                  <div className="flex justify-center items-center bg-gradient-to-b from-[#2F6CD1] to-[#1A53C8] relative rounded-2xl size-44 bg-clip-padding border-2 border-transparent before:absolute before:inset-0 before:-z-10 before:rounded-[inherit] before:-m-[2px] before:bg-gradient-to-b before:from-[#4385DC] before:to-[#1B52C8]">
+                    <p className="font-extrabold text-4xl text-white">
+                      1{index}
+                    </p>
+                  </div>
                 </div>
                 <div className="hidden lg:block" />
               </>
@@ -68,8 +78,12 @@ export default function Roadmap() {
           </>
         ))}
         <div />
-        <div className="flex justify-center items-center bg-gradient-to-b from-[#2F6CD1] to-[#1A53C8] rounded-2xl relative z-10 px-12 py-5">
-          <p className="font-extrabold text-xl sm:text-3xl text-white">Lulus</p>
+        <div className="relative z-10 xl:size-full">
+          <div className="flex justify-center items-center bg-gradient-to-b from-[#2F6CD1] to-[#1A53C8] relative rounded-2xl px-12 py-5 bg-clip-padding border-2 border-transparent before:absolute before:inset-0 before:-z-10 before:rounded-[inherit] before:-m-[2px] before:bg-gradient-to-b before:from-[#4385DC] before:to-[#1B52C8]">
+            <p className="font-extrabold text-xl sm:text-3xl text-white">
+              Lulus
+            </p>
+          </div>
         </div>
         <hr className="absolute w-px h-full border-2 border-kodein-blue border-dashed right-1/2" />
       </div>
