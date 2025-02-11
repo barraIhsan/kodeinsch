@@ -78,21 +78,21 @@ export const program: Array<{
 }> = [
   {
     src: "/img/program/1.png",
-    logo: "/img/program/logo1.svg",
+    logo: "/img/logo/moon.svg",
     alt: "",
     width: 1600,
     height: 1204,
   },
   {
     src: "/img/program/2.png",
-    logo: "/img/program/logo2.svg",
+    logo: "/img/logo/language.svg",
     alt: "",
     width: 1072,
     height: 712,
   },
   {
     src: "/img/program/3.png",
-    logo: "/img/program/logo3.svg",
+    logo: "/img/logo/luggage.svg",
     alt: "",
     width: 1280,
     height: 853,
