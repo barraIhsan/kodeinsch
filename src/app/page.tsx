@@ -4,6 +4,7 @@ import Affiliate from "@/components/Affiliate";
 import Program from "@/components/Program";
 import Footer from "@/components/Footer";
 import Roadmap from "@/components/Roadmap";
+import Testimonial from "@/components/Testimonial";
 import Image from "next/image";
 import { SiWhatsapp } from "@icons-pack/react-simple-icons";
 import Link from "next/link";
@@ -17,15 +18,16 @@ export default function Home() {
       <Affiliate />
 
       {/* Orange Section */}
-      <div className="relative container mx-auto px-5 py-12 mt-12 rounded-2xl bg-gradient-to-b from-[#FF9D2D] to-kodein-orange">
+      <div className="relative container mx-auto py-12 mt-12 sm:rounded-2xl bg-gradient-to-b from-[#FF9D2D] to-kodein-orange">
         <Roadmap />
+        <Testimonial />
 
         <Image
           src="/img/decoration/roadmap-left.svg"
           alt=""
           width={606}
           height={1086}
-          className="absolute left-0 top-0 pointer-events-none"
+          className="absolute left-0 bottom-1/4 pointer-events-none"
         />
         <Image
           src="/img/decoration/roadmap-right.svg"
