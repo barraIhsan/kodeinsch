@@ -86,7 +86,7 @@ export const programs: Array<{
     href: "#",
   },
   {
-    title: "Kodein Incubator",
+    title: "Incubator",
     desc: "Di Kodein Incubator, siswa terlibat dalam proyek internal sebagai simulasi dunia kerja, membekali mereka dengan pengalaman yang relevan untuk proyek eksternal.",
     href: "#",
   },
