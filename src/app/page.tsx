@@ -4,6 +4,7 @@ import Affiliate from "@/components/Affiliate";
 import Program from "@/components/Program";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
+import Curriculum from "@/components/Curriculum";
 import Roadmap from "@/components/Roadmap";
 import Testimonial from "@/components/Testimonial";
 import Image from "next/image";
@@ -16,7 +17,28 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Program />
-      <About />
+
+      {/* Blue Section */}
+      <div className="relative container mx-auto px-5 sm:px-12 lg:px-24 py-12 lg:py-24 mt-12 sm:rounded-2xl bg-gradient-to-b from-[#225EDC] to-[#1F58D2] overflow-hidden">
+        <About />
+        <Curriculum />
+
+        <Image
+          src="/img/decoration/roadmap-left.svg"
+          alt=""
+          width={606}
+          height={1086}
+          className="absolute -left-24 bottom-12 pointer-events-none"
+        />
+        <Image
+          src="/img/decoration/roadmap-right.svg"
+          alt=""
+          width={560}
+          height={1013}
+          className="absolute right-0 -top-44 pointer-events-none"
+        />
+      </div>
+
       <Affiliate />
 
       {/* Orange Section */}
