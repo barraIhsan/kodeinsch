@@ -9,7 +9,7 @@ import { roadmaps } from "@/constants/data";
 export default function Roadmap() {
   let count = 1;
   return (
-    <section className="py-12 flex flex-col items-center">
+    <section className="sm:px-5 px-12 py-12 flex flex-col items-center">
       <h3 className="font-extrabold text-white drop-shadow-lg mb-20 text-5xl sm:text-6xl">
         Roadmap
       </h3>
