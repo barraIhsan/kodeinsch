@@ -8,7 +8,7 @@ export default function Program() {
   return (
     <section
       id="program"
-      className="container mx-auto grid gap-14 px-4 sm:px-8 lg:px-0"
+      className="container mx-auto grid gap-14 px-4 lg:pt-12 pb-12 lg:pb-36 sm:px-8 lg:px-0"
     >
       <h3 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-center">
         Program Unggulan
