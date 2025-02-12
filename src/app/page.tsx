@@ -20,8 +20,8 @@ export default function Home() {
       {/* Blue Section */}
       <ColoredSection
         className="from-[#225EDC] to-[#1F58D2]"
-        left="-left-24 bottom-12"
-        right="-top-44"
+        left="-left-52 bottom-12"
+        right="-top-44 -right-36"
       >
         <About />
         <Curriculum />
@@ -30,7 +30,11 @@ export default function Home() {
       <Affiliate />
 
       {/* Orange Section */}
-      <ColoredSection className="from-[#FF9D2D] to-kodein-orange !px-0">
+      <ColoredSection
+        className="from-[#FF9D2D] to-kodein-orange !px-0"
+        left="-left-36"
+        right="-right-48 -top-16"
+      >
         <Roadmap />
         <Testimonial />
       </ColoredSection>
