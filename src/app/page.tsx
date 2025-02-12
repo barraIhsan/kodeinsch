@@ -1,11 +1,11 @@
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Affiliate from "@/components/Affiliate";
-import Program from "@/components/Program";
+import Hero from "@/app/Hero";
+import Affiliate from "@/app/Affiliate";
+import Program from "@/app/Program";
 import Footer from "@/components/Footer";
-import About from "@/components/About";
-import Curriculum from "@/components/Curriculum";
-import Roadmap from "@/components/Roadmap";
+import About from "@/app/About";
+import Curriculum from "@/app/Curriculum";
+import Roadmap from "@/app/Roadmap";
 import Testimonial from "@/components/Testimonial";
 import { SiWhatsapp } from "@icons-pack/react-simple-icons";
 import Link from "next/link";
