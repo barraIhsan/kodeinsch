@@ -7,9 +7,9 @@ import About from "@/components/About";
 import Curriculum from "@/components/Curriculum";
 import Roadmap from "@/components/Roadmap";
 import Testimonial from "@/components/Testimonial";
-import Image from "next/image";
 import { SiWhatsapp } from "@icons-pack/react-simple-icons";
 import Link from "next/link";
+import ColoredSection from "@/components/ColoredSection";
 
 export default function Home() {
   return (
@@ -19,48 +19,22 @@ export default function Home() {
       <Program />
 
       {/* Blue Section */}
-      <div className="relative container mx-auto px-5 sm:px-12 lg:px-24 py-12 lg:py-24 mt-12 sm:rounded-2xl bg-gradient-to-b from-[#225EDC] to-[#1F58D2] overflow-hidden">
+      <ColoredSection
+        className="from-[#225EDC] to-[#1F58D2]"
+        left="-left-24 bottom-12"
+        right="-top-44"
+      >
         <About />
         <Curriculum />
-
-        <Image
-          src="/img/decoration/roadmap-left.svg"
-          alt=""
-          width={606}
-          height={1086}
-          className="absolute -left-24 bottom-12 pointer-events-none"
-        />
-        <Image
-          src="/img/decoration/roadmap-right.svg"
-          alt=""
-          width={560}
-          height={1013}
-          className="absolute right-0 -top-44 pointer-events-none"
-        />
-      </div>
+      </ColoredSection>
 
       <Affiliate />
 
       {/* Orange Section */}
-      <div className="relative container mx-auto py-12 mt-12 sm:rounded-2xl bg-gradient-to-b from-[#FF9D2D] to-kodein-orange">
+      <ColoredSection className="from-[#FF9D2D] to-kodein-orange !px-0">
         <Roadmap />
         <Testimonial />
-
-        <Image
-          src="/img/decoration/roadmap-left.svg"
-          alt=""
-          width={606}
-          height={1086}
-          className="absolute left-0 bottom-1/4 pointer-events-none"
-        />
-        <Image
-          src="/img/decoration/roadmap-right.svg"
-          alt=""
-          width={560}
-          height={1013}
-          className="absolute right-0 top-0 pointer-events-none"
-        />
-      </div>
+      </ColoredSection>
 
       <Footer />
       <div className="fixed bottom-10 right-10 size-16 bg-[#25D366]/50 rounded-full flex justify-center items-center animate-ping" />

@@ -1,0 +1,40 @@
+import { cn } from "@/lib/utils";
+import { ReactNode } from "react";
+import Image from "next/image";
+
+export default function ColoredSection({
+  children,
+  className,
+  left,
+  right,
+}: {
+  children: ReactNode;
+  className: string;
+  left?: string;
+  right?: string;
+}) {
+  return (
+    <div
+      className={cn(
+        "relative container mx-auto px-5 sm:px-12 lg:px-24 py-12 lg:py-24 mt-12 sm:rounded-2xl bg-gradient-to-b overflow-hidden",
+        className,
+      )}
+    >
+      {children}
+      <Image
+        src="/img/decoration/colored-left.svg"
+        alt=""
+        width={606}
+        height={1086}
+        className={cn("absolute left-0 bottom-1/4 pointer-events-none", left)}
+      />
+      <Image
+        src="/img/decoration/colored-right.svg"
+        alt=""
+        width={560}
+        height={1013}
+        className={cn("absolute right-0 top-0 pointer-events-none", right)}
+      />
+    </div>
+  );
+}
