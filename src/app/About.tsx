@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="flex flex-col-reverse xl:flex-row justify-between items-center gap-8 lg:gap-12 relative z-10">
+    <section className="flex flex-col-reverse xl:flex-row justify-between items-center gap-8 lg:gap-12">
       <div className="flex-1 space-y-5 lg:space-y-8">
         <Title className="text-white" shadow>
           Mengapa Kami Hadir

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Curriculum() {
   return (
-    <section className="pt-20 xl:pt-36 flex flex-col items-center gap-11 relative z-10">
+    <section className="pt-20 xl:pt-36 flex flex-col items-center gap-11">
       <Title className="text-white" shadow>
         Kurikulum Kami
       </Title>
