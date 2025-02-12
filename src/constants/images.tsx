@@ -87,8 +87,8 @@ export const program: Array<{
     src: "/img/program/2.png",
     logo: "/img/logo/language.svg",
     alt: "",
-    width: 1072,
-    height: 712,
+    width: 1600,
+    height: 903,
   },
   {
     src: "/img/program/3.png",

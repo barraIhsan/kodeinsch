@@ -1,12 +1,13 @@
+import { Title } from "@/components/Text";
 import { curriculums } from "@/constants/data";
 import Image from "next/image";
 
 export default function Curriculum() {
   return (
-    <section className="pt-20 xl:pt-36 flex flex-col items-center gap-11 relative z-10">
-      <h2 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
+    <section className="pt-20 xl:pt-36 flex flex-col items-center gap-11">
+      <Title className="text-white" shadow>
         Kurikulum Kami
-      </h2>
+      </Title>
       <div className="flex flex-col xl:flex-row gap-10 w-full">
         {curriculums.map((curriculum, index) => (
           <div className="bg-white p-8 rounded-2xl flex-1 min-w-72" key={index}>

@@ -1,3 +1,4 @@
+import { Title } from "@/components/Text";
 import {
   Accordion,
   AccordionContent,
@@ -10,9 +11,9 @@ export default function Roadmap() {
   let count = 1;
   return (
     <section className="sm:px-5 px-12 py-12 flex flex-col items-center">
-      <h3 className="font-extrabold text-white drop-shadow-lg mb-20 text-5xl sm:text-6xl">
+      <Title className="text-white mb-20" shadow>
         Roadmap
-      </h3>
+      </Title>
       <div className="relative grid grid-cols-1 lg:grid-cols-[2fr_1fr_2fr] grid-rows-[repeat(6,auto-fit)] lg:grid-rows-[repeat(4,auto-fit)] gap-x-4 gap-y-8 lg:gap-y-16 w-full sm:w-fit lg:max-w-7xl">
         {roadmaps.map((roadmap, index) => (
           <>

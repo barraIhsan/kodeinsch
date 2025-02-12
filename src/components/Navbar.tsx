@@ -35,7 +35,7 @@ export default function Navbar() {
     <>
       <nav
         className={cn(
-          `bg-white fixed border-black/10 z-50 inset-x-0`,
+          `bg-white fixed top-0 border-black/10 z-50 inset-x-0`,
           scrollY == 0 ? "" : "border-b",
         )}
       >
