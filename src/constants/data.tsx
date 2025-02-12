@@ -86,7 +86,7 @@ export const programs: Array<{
     href: "#",
   },
   {
-    title: "Kodein Incubator",
+    title: "Incubator",
     desc: "Di Kodein Incubator, siswa terlibat dalam proyek internal sebagai simulasi dunia kerja, membekali mereka dengan pengalaman yang relevan untuk proyek eksternal.",
     href: "#",
   },
@@ -94,25 +94,45 @@ export const programs: Array<{
 
 export const curriculums: Array<{
   title: string;
+  desc?: string;
   logo: string;
-  list: Array<string>
+  list: Array<string>;
 }> = [
   {
     title: "Materi Diniyah",
-    logo: "/img/about/logoDiniyah.svg",
-    list: ["Tauhid","Tahfidz","Tafsir","Hadist","Fiqih","Siroh",]
+    logo: "/img/logo/moon.svg",
+    list: ["Tauhid", "Tahfidz", "Tafsir", "Hadist", "Fiqih", "Siroh"],
   },
   {
-    title: "Materi IT(Information Technology)",
-    logo: "/img/about/logoCode.svg",
-    list: ["Web Programming","Mobile Programming","UI/UX","Database","Graphic Design","Motion Graphic","Video Editing","Networking","IoT",]
+    title: "Materi IT",
+    desc: "(Information Technology)",
+    logo: "/img/logo/code.svg",
+    list: [
+      "Web Programming",
+      "Mobile Programming",
+      "UI/UX",
+      "Database",
+      "Graphic Design",
+      "Motion Graphic",
+      "Video Editing",
+      "Networking",
+      "IoT",
+    ],
   },
   {
     title: "Materi Diknas",
-    logo: "/img/about/logoKemendik.png",
-    list: ["Matematika","Bahasa Indonesia","Bahasa Inggris","IPA Terpadu","IPS Terpadu","PKN","Try Out UTBK",]
+    logo: "/img/logo/diknas.svg",
+    list: [
+      "Matematika",
+      "Bahasa Indonesia",
+      "Bahasa Inggris",
+      "IPA Terpadu",
+      "IPS Terpadu",
+      "PKN",
+      "Try Out UTBK",
+    ],
   },
-]
+];
 
 export const roadmaps: Array<Array<Array<{ title: string; desc: string }>>> = [
   [
@@ -229,5 +249,46 @@ export const footerLinks: Array<{
         href: "#",
       },
     ],
+  },
+];
+
+export const testimonials: Array<{
+  rate: number;
+  review: string;
+  pfp: string;
+  name: string;
+  position: string;
+}> = [
+  {
+    rate: 5,
+    review:
+      "Selain Ilmu, banyak pengalaman dan kesan yang saya rasakan seperti mentor belajar yang baik, fasilitas memadai, sekaligus itu membuat saya nyaman untuk bersekolah di Sekolah Developer Indonesia",
+    pfp: "/img/logo/user-placeholder.svg",
+    name: "Halim",
+    position: "Alumni angkatan 0",
+  },
+  {
+    rate: 5,
+    review:
+      "Saya optimis apa yang dipelajari di Sekolah Developer Indonesia akan jauh melampaui apa yang akan dipelajari oleh anak saya saat menempuh  perguruan tinggi nanti.",
+    pfp: "/img/logo/user-placeholder.svg",
+    name: "Bpk. Tri Aguska",
+    position: "Wali santri angkatan 1",
+  },
+  {
+    rate: 5,
+    review:
+      "Terkait pembelajaran yang disampaikan oleh Sekolah Developer Indonesia itu jauh diluar bayangan saya, saya senang menemukan sekolah ini. Semoga istiqomah",
+    pfp: "/img/logo/user-placeholder.svg",
+    name: "Bpk. Herman Harminggana",
+    position: "Wali santri angkatan 2",
+  },
+  {
+    rate: 5,
+    review:
+      "Kami sebagai orang tua tidak salah memilih Sekolah Developer Indonesia untuk putra kami karena kurikulum Pendidikan IT yang sesuai harapan  kami. Kurikulum yang relevan dengan industry IT",
+    pfp: "/img/logo/user-placeholder.svg",
+    name: "Bpk. Wihandani",
+    position: "Wali santri angkatan 2",
   },
 ];
