@@ -15,7 +15,7 @@ export default function Affiliate() {
             dan jaringan mereka untuk masa depan.
           </p>
         </div>
-        <div className="shrink-0 flex gap-16 md:gap-6 items-center [mask:linear-gradient(90deg,transparent,white_10%,white_80%,transparent)] max-w-lg md:max-w-none">
+        <div className="shrink-0 flex gap-16 md:gap-6 items-center [mask:linear-gradient(90deg,transparent,white_10%,white_80%,transparent)] w-fit overflow-hidden">
           {affiliates.map((affiliate, index) => (
             <Image key={index} {...affiliate} className="h-20 object-contain" />
           ))}
