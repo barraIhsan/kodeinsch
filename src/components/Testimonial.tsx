@@ -8,15 +8,16 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Title } from "./Text";
 
 export default function Testimonial() {
   return (
     <section className="relative z-10 py-12">
       <Carousel className="space-y-12">
         <div className="flex items-center justify-between px-5 sm:px-12 xl:px-28">
-          <h3 className="text-white font-bold text-4xl md:text-5xl xl:text-6xl drop-shadow-lg">
+          <Title className="text-white" shadow>
             Testimoni
-          </h3>
+          </Title>
           <div className="flex gap-3">
             <CarouselPrevious className="static translate-y-0 sm:size-10 xl:size-12" />
             <CarouselNext className="static translate-y-0 sm:size-10 xl:size-12" />

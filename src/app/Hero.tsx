@@ -5,15 +5,14 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import { heros } from "@/constants/images";
+import { Title } from "@/components/Text";
 
 export default function Hero() {
   return (
     <main className="mx-auto overflow-hidden flex flex-col gap-12 2xl:gap-24 justify-center items-center py-36 px-5 sm:px-12">
       <div className="flex flex-col items-center">
         <div className="max-w-[85ch] space-y-5 text-center">
-          <h1 className="font-extrabold text-4xl xl:text-6xl">
-            Boarding School dengan fokus IT dan Multimedia
-          </h1>
+          <Title h1>Boarding School dengan fokus IT dan Multimedia</Title>
           <p className="text-lg xl:text-xl text-black/50">
             Tempat teknologi bertemu nilai Islami, membentuk generasi kreatif
             dan berintegritas melalui pendidikan modern dan moral kuat.

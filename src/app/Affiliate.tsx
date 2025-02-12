@@ -1,15 +1,14 @@
 /* eslint-disable jsx-a11y/alt-text */
 import Image from "next/image";
 import { affiliates } from "@/constants/images";
+import { Title } from "@/components/Text";
 
 export default function Affiliate() {
   return (
     <>
       <section className="flex flex-col xl:flex-row justify-between container mx-auto px-5 sm:px-12 pt-32 xl:pt-60 gap-16 xl:gap-28">
-        <div className="">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
-            Afiliasi Kami
-          </h2>
+        <div className="space-y-4">
+          <Title>Afiliasi Kami</Title>
           <p className="text-gray-500 text-lg md:text-xl  font-thin max-w-3xl">
             Afiliasi antara lembaga, memberikan siswa akses ke program tambahan,
             beasiswa, dan peluang pertukaran pelajar, yang memperluas wawasan
@@ -27,10 +26,8 @@ export default function Affiliate() {
           src="https://www.youtube.com/embed/ibJ0lpj1a0E"
           className="flex-1 rounded-3xl border-none aspect-video size-full"
         />
-        <div className="flex-1">
-          <h2 className="text-4xl md:text-5xl max-w-lg font-extrabold text-gray-900 mb-4">
-            Pentingnya Belajar IT di Era Modern
-          </h2>
+        <div className="flex-1 space-y-4">
+          <Title>Pentingnya Belajar IT di Era Modern</Title>
           <p className="text-gray-500 text-lg md:text-xl font-thin max-w-2xl">
             Information Technology (IT) sangat penting di era modern karena
             mendukung efisiensi, inovasi, dan konektivitas. TI memungkinkan
