@@ -16,7 +16,7 @@ export default function ColoredSection({
   return (
     <div
       className={cn(
-        "relative z-0 container mx-auto px-5 sm:px-12 lg:px-24 py-12 lg:py-24 mt-12 sm:rounded-2xl bg-gradient-to-b overflow-hidden",
+        "relative z-0 container mx-auto px-5 sm:px-12 lg:px-24 py-12 lg:py-24 mt-12 bg-gradient-to-b overflow-hidden",
         className,
       )}
     >

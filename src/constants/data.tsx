@@ -1,6 +1,6 @@
 export const leftMenus: Array<{
   label: string;
-  href: string;
+  href?: string;
   newTab?: boolean;
   menus?: Array<{
     label: string;
@@ -9,22 +9,21 @@ export const leftMenus: Array<{
   }>;
 }> = [
   // TODO: For the time being, leave this empty for prod
-  // {
-  //   label: "Sekolah Kami",
-  //   href: "#",
-  //   menus: [
-  //     {
-  //       label: "Tentang Kami",
-  //       desc: "lorem ipsum dolor sit amet",
-  //       href: "#",
-  //     },
-  //     {
-  //       label: "Akademik",
-  //       desc: "lorem ipsum dolor sit amet",
-  //       href: "#",
-  //     },
-  //   ],
-  // },
+  {
+    label: "Sekolah Kami",
+    menus: [
+      {
+        label: "Tentang Kami",
+        desc: "",
+        href: "/about",
+      },
+      // {
+      //   label: "Akademik",
+      //   desc: "lorem ipsum dolor sit amet",
+      //   href: "#",
+      // },
+    ],
+  },
   // {
   //   label: "Student Life",
   //   href: "#",
@@ -290,5 +289,61 @@ export const testimonials: Array<{
     pfp: "/img/logo/user-placeholder.svg",
     name: "Bpk. Wihandani",
     position: "Wali santri angkatan 2",
+  },
+];
+
+export const facilities: Array<{
+  img: {
+    src: string;
+    width: number;
+    height: number;
+    alt: string;
+  };
+  desc: string;
+}> = [
+  {
+    img: {
+      src: "/img/facility/field.png",
+      width: 4032,
+      height: 2268,
+      alt: "",
+    },
+    desc: "Lapangan",
+  },
+  {
+    img: {
+      src: "/img/facility/field.png",
+      width: 4032,
+      height: 2268,
+      alt: "",
+    },
+    desc: "Aula",
+  },
+  {
+    img: {
+      src: "/img/facility/field.png",
+      width: 4032,
+      height: 2268,
+      alt: "",
+    },
+    desc: "Tempat Makan",
+  },
+  {
+    img: {
+      src: "/img/facility/field.png",
+      width: 4032,
+      height: 2268,
+      alt: "",
+    },
+    desc: "Kelas",
+  },
+  {
+    img: {
+      src: "/img/facility/field.png",
+      width: 4032,
+      height: 2268,
+      alt: "",
+    },
+    desc: "Asrama",
   },
 ];
