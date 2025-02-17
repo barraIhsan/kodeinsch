@@ -15,7 +15,7 @@ export default function Affiliate() {
             dan jaringan mereka untuk masa depan.
           </p>
         </div>
-        <div className="max-w-3xl [--gap:50px] md:[--gap:100px] motion-safe:[mask:linear-gradient(90deg,transparent,white_20%,white_80%,transparent)] w-fit overflow-hidden">
+        <div className="max-w-full sm:max-w-3xl [--gap:50px] md:[--gap:100px] motion-safe:[mask:linear-gradient(90deg,transparent,white_20%,white_80%,transparent)] w-fit overflow-hidden">
           <ul className="flex gap-[--gap] md:gap-12 w-max animate-scroll">
             {affiliates.concat(affiliates).map((affiliate, index) => (
               <li key={index}>
@@ -25,7 +25,7 @@ export default function Affiliate() {
           </ul>
         </div>
       </section>
-      <section className="flex flex-col xl:flex-row justify-between items-center container mx-auto pb-12 xl:pb-64 pt-40 xl:pt-64 gap-20 md:gap-16">
+      <section className="flex flex-col xl:flex-row justify-between items-center container mx-auto pb-12 xl:pb-64 pt-40 xl:pt-64 gap-20 sm:gap-16">
         <iframe
           src="https://www.youtube.com/embed/ibJ0lpj1a0E"
           className="flex-1 rounded-3xl border-none aspect-video size-full"
