@@ -26,9 +26,7 @@ export default function Hero() {
             </p>
           </div>
           <Button className="shadow-2xl bg-gradient-to-b from-[#4385DC] to-[#1B52C8] hover:from-[#1B52C8] hover:to-[#4385DC]">
-            <Link href="https://forms.gle/jmwgJAVRa5dEqKKd9" target="_blank">
-              Daftar Sekarang
-            </Link>
+            <Link href="/form">Daftar Sekarang</Link>
           </Button>
           <div className="absolute -left-2 -top-3 size-5 animate-ping rounded-full bg-red-600" />
           <div className="absolute -left-2 -top-3 size-5 rounded-full bg-red-600" />
