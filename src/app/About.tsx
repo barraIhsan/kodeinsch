@@ -9,12 +9,13 @@ export default function About() {
           Mengapa Kami Hadir
         </Title>
         <p className="text-white text-md md:text-xl">
-          KODEIN dirancang untuk mempersiapkan siswa menghadapi dunia pendidikan
-          tinggi dan karier di bidang teknologi dan industri kreatif. Kami
-          berfokus pada membentuk generasi yang inovatif, berpikiran terbuka,
-          dan siap berkontribusi dalam masyarakat global. Dengan pendekatan
-          berbasis proyek, siswa kami dilatih untuk mengembangkan solusi nyata
-          yang relevan dengan tantangan dunia, sekaligus dibekali keterampilan
+          <span className="font-extrabold">Sekolah Developer Indonesia</span>{" "}
+          dirancang untuk mempersiapkan siswa menghadapi dunia pendidikan tinggi
+          dan karier di bidang teknologi dan industri kreatif. Kami berfokus
+          pada membentuk generasi yang inovatif, berpikiran terbuka, dan siap
+          berkontribusi dalam masyarakat global. Dengan pendekatan berbasis
+          proyek, siswa kami dilatih untuk mengembangkan solusi nyata yang
+          relevan dengan tantangan dunia, sekaligus dibekali keterampilan
           programming, multimedia, serta kemampuan manajemen proyek dan berpikir
           strategis.
         </p>
