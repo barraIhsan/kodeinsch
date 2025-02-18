@@ -16,7 +16,7 @@ export default function Curriculum() {
               src={curriculum.logo}
               width={80}
               height={80}
-              alt=""
+              alt="logo"
             />
             <h2 className="text-2xl font-bold">
               {curriculum.title}
