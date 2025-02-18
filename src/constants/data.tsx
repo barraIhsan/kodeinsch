@@ -86,7 +86,7 @@ export const programs: Array<{
   },
   {
     title: "Incubator",
-    desc: "Di Kodein Incubator, siswa terlibat dalam proyek internal sebagai simulasi dunia kerja, membekali mereka dengan pengalaman yang relevan untuk proyek eksternal.",
+    desc: "Di Incubator, siswa terlibat dalam proyek internal sebagai simulasi dunia kerja, membekali mereka dengan pengalaman yang relevan untuk proyek eksternal.",
     href: "#",
   },
 ];
@@ -104,7 +104,6 @@ export const curriculums: Array<{
   },
   {
     title: "Materi IT",
-    desc: "(Information Technology)",
     logo: "/img/logo/code.svg",
     list: [
       "Web Programming",
@@ -126,8 +125,6 @@ export const curriculums: Array<{
       "Bahasa Indonesia",
       "Bahasa Inggris",
       "IPA Terpadu",
-      "IPS Terpadu",
-      "PKN",
       "Try Out UTBK",
     ],
   },
