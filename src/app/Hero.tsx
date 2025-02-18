@@ -22,7 +22,7 @@ export default function Hero() {
           <div>
             <p className="font-bold">Pendaftaran Masih Dibuka!</p>
             <p className="text-gray-500 text-sm">
-              Gelombang ketiga: 10 Okt - 24 Nov 2024
+              Gelombang ketiga: 1 Feb - 30 Jun 2025
             </p>
           </div>
           <Button className="shadow-2xl bg-gradient-to-b from-[#4385DC] to-[#1B52C8] hover:from-[#1B52C8] hover:to-[#4385DC]">
