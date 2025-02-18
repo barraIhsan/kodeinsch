@@ -87,7 +87,7 @@ export default function Navbar() {
                     {/* For normal link */}
                     {!menu.menus && (
                       <Link
-                        href={menu.href}
+                        href={menu.href || "#"}
                         target={menu.newTab ? "_blank" : "_self"}
                       >
                         <NavigationMenuLink
@@ -113,7 +113,7 @@ export default function Navbar() {
                   className={cn(menu.className, "hidden lg:inline-flex")}
                 >
                   <Link
-                    href={menu.href}
+                    href={menu.href || "#"}
                     target={menu.newTab ? "_blank" : "_self"}
                   >
                     {menu.label}
@@ -194,7 +194,7 @@ export default function Navbar() {
                       className="px-0 py-4 font-medium text-xl leading-none"
                     >
                       <Link
-                        href={menu.href}
+                        href={menu.href || "#"}
                         target={menu.newTab ? "_blank" : "_self"}
                       >
                         {menu.label}
@@ -209,7 +209,7 @@ export default function Navbar() {
                 <li key={index}>
                   <Button variant={menu.btnVariant} className={menu.className}>
                     <Link
-                      href={menu.href}
+                      href={menu.href || "#"}
                       target={menu.newTab ? "_blank" : "_self"}
                     >
                       {menu.label}
