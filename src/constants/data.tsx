@@ -60,8 +60,7 @@ export const rightMenus: Array<{
   },
   {
     label: "PPDB",
-    href: "https://forms.gle/jmwgJAVRa5dEqKKd9",
-    newTab: true,
+    href: "/form",
     btnVariant: "default",
     className:
       "bg-gradient-to-b from-[#4385DC] to-[#1B52C8] hover:from-[#1B52C8] hover:to-[#4385DC]",
