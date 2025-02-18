@@ -6,7 +6,7 @@ export default function Hero() {
     <main className="container mx-auto flex flex-col-reverse lg:flex-row justify-between gap-8 py-14">
       <div className="flex-1 flex gap-8 flex-col justify-center">
         <Title className="text-white" shadow>
-          Sekolah Developer Indonesia // KODEIN
+          Sekolah Developer Indonesia
         </Title>
         <p className="text-white text-lg lg:text-xl">
           SEKOLAH DEVELOPER INDONESIA adalah salah satu wadah pendidikan IT
