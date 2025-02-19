@@ -35,7 +35,7 @@ export default function Navbar() {
     <>
       <nav
         className={cn(
-          `bg-white fixed top-0 border-black/10 z-50 inset-x-0`,
+          `bg-white fixed top-0 border-gray-200 z-50 inset-x-0`,
           scrollY == 0 ? "" : "border-b",
         )}
       >
@@ -204,7 +204,7 @@ export default function Navbar() {
                 </AccordionItem>
               ))}
             </Accordion>
-            <ul className="border-t border-gray-300 pt-4 flex gap-5">
+            <ul className="border-t border-gray-200 pt-4 flex gap-5">
               {rightMenus.map((menu, index) => (
                 <li key={index}>
                   <Button variant={menu.btnVariant} className={menu.className}>

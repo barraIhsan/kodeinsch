@@ -78,12 +78,17 @@ export default {
             height: "0",
           },
         },
+        scroll: {
+          "100%": {
+            transform: "translate(calc(-50% - var(--gap) / 2))",
+          },
+        },
       },
       animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
+        scroll:
+          "scroll var(--duration, 20s) linear var(--direction, forwards) infinite",
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [],
 } satisfies Config;

@@ -9,7 +9,7 @@ import { Title } from "@/components/Text";
 
 export default function Hero() {
   return (
-    <main className="mx-auto overflow-hidden flex flex-col gap-12 2xl:gap-24 justify-center items-center py-36 px-5 sm:px-12">
+    <main className="mx-auto overflow-hidden flex flex-col gap-12 2xl:gap-24 justify-center items-center py-36 px-5 sm:px-12 relative">
       <div className="flex flex-col items-center">
         <div className="max-w-[85ch] space-y-5 text-center">
           <Title h1>Boarding School dengan fokus IT dan Multimedia</Title>
@@ -46,6 +46,7 @@ export default function Hero() {
           className="w-full lg:w-[40rem] rounded-2xl absolute -bottom-8 rotate-2 lg:-bottom-8 lg:-left-96 lg:-rotate-12 object-cover"
         />
       </div>
+      <div className="absolute container mx-auto size-full border-x border-gray-200" />
     </main>
   );
 }
