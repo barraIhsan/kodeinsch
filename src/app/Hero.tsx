@@ -9,8 +9,8 @@ import { Title } from "@/components/Text";
 
 export default function Hero() {
   return (
-    <main className="mx-auto overflow-hidden flex flex-col gap-12 2xl:gap-24 justify-center items-center py-36 px-5 sm:px-12 relative">
-      <div className="flex flex-col items-center">
+    <main className="mx-auto overflow-hidden flex flex-col gap-12 2xl:gap-24 justify-center items-center py-36 relative z-0">
+      <div className="flex flex-col items-center container px-5 sm:px-12">
         <div className="max-w-[85ch] space-y-5 text-center">
           <Title h1>Boarding School dengan fokus IT dan Multimedia</Title>
           <p className="text-lg xl:text-xl text-black/50">
@@ -18,7 +18,7 @@ export default function Hero() {
             dan berintegritas melalui pendidikan modern dan moral kuat.
           </p>
         </div>
-        <div className="max-w-[70ch] w-full border-y xl:border-t xl:border-b-0 border-gray-400/50 px-5 py-4 flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-center mt-14 relative">
+        <div className="max-w-[70ch] w-full px-5 border-y xl:border-t xl:border-b-0 border-gray-400/50 py-4 flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-center mt-14 relative">
           <div>
             <p className="font-bold">Pendaftaran Masih Dibuka!</p>
             <p className="text-gray-500 text-sm">
@@ -26,26 +26,24 @@ export default function Hero() {
             </p>
           </div>
           <Button className="shadow-2xl bg-gradient-to-b from-[#4385DC] to-[#1B52C8] hover:from-[#1B52C8] hover:to-[#4385DC]">
-            <Link href="https://forms.gle/jmwgJAVRa5dEqKKd9" target="_blank">
-              Daftar Sekarang
-            </Link>
+            <Link href="/form">Daftar Sekarang</Link>
           </Button>
           <div className="absolute -left-2 -top-3 size-5 animate-ping rounded-full bg-red-600" />
           <div className="absolute -left-2 -top-3 size-5 rounded-full bg-red-600" />
         </div>
       </div>
-      <div className="relative drop-shadow-xl">
+      <div className="relative drop-shadow-xl w-fit container lg:max-w-none">
         <Image
           {...heros[0]}
           className="w-full lg:w-[45rem] rounded-2xl relative z-10 object-cover"
         />
         <Image
           {...heros[1]}
-          className="w-full lg:w-[40rem] lg:rounded-2xl absolute -bottom-12 -rotate-2 rounded-3xl lg:-bottom-8 lg:-right-96 lg:rotate-12 object-cover"
+          className="w-full lg:w-[40rem] lg:rounded-2xl absolute -bottom-1 -rotate-2 rounded-3xl lg:-bottom-8 lg:-right-44 xl:-right-72 2xl:-right-96 lg:rotate-12 object-cover"
         />
         <Image
           {...heros[2]}
-          className="w-full lg:w-[40rem] rounded-2xl absolute -bottom-8 rotate-2 lg:-bottom-8 lg:-left-96 lg:-rotate-12 object-cover"
+          className="w-full lg:w-[40rem] rounded-2xl absolute bottom-2 rotate-2 lg:-bottom-8 lg:-left-44 xl:-left-72 2xl:-left-96 lg:-rotate-12 object-cover"
         />
       </div>
       <div className="absolute container mx-auto size-full border-x border-gray-200" />
