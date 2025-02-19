@@ -14,7 +14,7 @@ export default function Program() {
       <Title className="py-2.5 text-center border-y border-gray-200">
         Program Unggulan
       </Title>
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 px-5 sm:px-12">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8">
         {programs.map((program, index) => (
           <div
             key={index}
