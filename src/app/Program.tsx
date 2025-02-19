@@ -9,9 +9,11 @@ export default function Program() {
   return (
     <section
       id="program"
-      className="container mx-auto grid gap-14 px-4 lg:pt-12 pb-12 lg:pb-36 sm:px-8 lg:px-0"
+      className="border-x border-gray-200 container mx-auto grid gap-14 px-4 lg:pt-12 pb-12 lg:pb-36 sm:px-8 lg:px-0"
     >
-      <Title className="text-center">Program Unggulan</Title>
+      <Title className="text-center border-y border-gray-200">
+        Program Unggulan
+      </Title>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {programs.map((program, index) => (
           <div
