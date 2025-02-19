@@ -110,7 +110,10 @@ export default function Navbar() {
               <li key={index}>
                 <Button
                   variant={menu.btnVariant}
-                  className={cn(menu.className, "hidden lg:inline-flex")}
+                  className={cn(
+                    menu.className,
+                    "rounded-lg hidden lg:inline-flex",
+                  )}
                 >
                   <Link
                     href={menu.href || "#"}
@@ -207,7 +210,10 @@ export default function Navbar() {
             <ul className="border-t border-gray-200 pt-4 flex gap-5">
               {rightMenus.map((menu, index) => (
                 <li key={index}>
-                  <Button variant={menu.btnVariant} className={menu.className}>
+                  <Button
+                    variant={menu.btnVariant}
+                    className={cn(menu.className, "rounded-lg")}
+                  >
                     <Link
                       href={menu.href || "#"}
                       target={menu.newTab ? "_blank" : "_self"}
