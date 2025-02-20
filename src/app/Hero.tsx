@@ -39,11 +39,11 @@ export default function Hero() {
         />
         <Image
           {...heros[1]}
-          className="w-full lg:w-[40rem] lg:rounded-2xl absolute -bottom-1 -rotate-2 rounded-3xl lg:-bottom-8 lg:-right-44 xl:-right-72 2xl:-right-96 lg:rotate-12 object-cover"
+          className="w-full lg:w-[40rem] rounded-2xl absolute -bottom-1 -rotate-2 lg:-bottom-8 lg:-right-44 xl:-right-72 2xl:-right-[23rem] lg:rotate-12 object-cover"
         />
         <Image
           {...heros[2]}
-          className="w-full lg:w-[40rem] rounded-2xl absolute bottom-2 rotate-2 lg:-bottom-8 lg:-left-44 xl:-left-72 2xl:-left-96 lg:-rotate-12 object-cover"
+          className="w-full lg:w-[40rem] rounded-2xl absolute bottom-2 rotate-2 lg:-bottom-8 lg:-left-44 xl:-left-72 2xl:-left-[23rem] lg:-rotate-12 object-cover"
         />
       </div>
       <div className="absolute container mx-auto size-full border-x border-gray-200 pointer-events-none" />
