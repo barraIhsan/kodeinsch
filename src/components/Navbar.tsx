@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
@@ -24,21 +24,10 @@ import { leftMenus, rightMenus } from "@/constants/data";
 
 export default function Navbar() {
   const [navMobileOpen, setNavMobileOpen] = useState(false);
-  const [scrollY, setScrollY] = useState(0);
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      setScrollY(window.scrollY);
-    });
-  }, []);
   return (
     <>
-      <nav
-        className={cn(
-          `bg-white fixed top-0 border-gray-200 z-50 inset-x-0`,
-          scrollY == 0 ? "" : "border-b",
-        )}
-      >
+      <nav className="bg-white fixed top-0 border-b border-gray-200 z-50 inset-x-0">
         <div className="container flex justify-between items-center px-5 md:px-12 py-5 mx-auto">
           <div className="flex items-center gap-4">
             <Link href="/">
@@ -110,7 +99,10 @@ export default function Navbar() {
               <li key={index}>
                 <Button
                   variant={menu.btnVariant}
-                  className={cn(menu.className, "hidden lg:inline-flex")}
+                  className={cn(
+                    menu.className,
+                    "rounded-lg hidden lg:inline-flex",
+                  )}
                 >
                   <Link
                     href={menu.href || "#"}
@@ -207,7 +199,10 @@ export default function Navbar() {
             <ul className="border-t border-gray-200 pt-4 flex gap-5">
               {rightMenus.map((menu, index) => (
                 <li key={index}>
-                  <Button variant={menu.btnVariant} className={menu.className}>
+                  <Button
+                    variant={menu.btnVariant}
+                    className={cn(menu.className, "rounded-lg")}
+                  >
                     <Link
                       href={menu.href || "#"}
                       target={menu.newTab ? "_blank" : "_self"}

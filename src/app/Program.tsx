@@ -9,9 +9,9 @@ export default function Program() {
   return (
     <section
       id="program"
-      className="border-x border-gray-200 container mx-auto grid gap-14 lg:pt-12 pb-12 lg:pb-36"
+      className="border-x border-gray-200 container mx-auto grid gap-14 lg:pt-12 pb-12 lg:pb-20"
     >
-      <Title className="py-2.5 text-center border-y border-gray-200">
+      <Title className="py-2.5 text-center border-b border-gray-200">
         Program Unggulan
       </Title>
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8">
@@ -40,12 +40,19 @@ export default function Program() {
               <p className="text-sm sm:text-base text-gray-500 mt-2 mb-8">
                 {program.desc}
               </p>
-              <Button variant="outline" className="px-6 py-3">
+              <Button variant="outline" size="lg">
                 Info Selengkapnya
               </Button>
             </div>
           </div>
         ))}
+      </div>
+      <div className="flex items-center gap-2.5">
+        <hr className="w-full" />
+        <Button variant="outline" size="lg">
+          Lihat Semua
+        </Button>
+        <hr className="w-full" />
       </div>
     </section>
   );

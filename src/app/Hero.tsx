@@ -46,7 +46,7 @@ export default function Hero() {
           className="w-full lg:w-[40rem] rounded-2xl absolute bottom-2 rotate-2 lg:-bottom-8 lg:-left-44 xl:-left-72 2xl:-left-96 lg:-rotate-12 object-cover"
         />
       </div>
-      <div className="absolute container mx-auto size-full border-x border-gray-200" />
+      <div className="absolute container mx-auto size-full border-x border-gray-200 pointer-events-none" />
     </main>
   );
 }
