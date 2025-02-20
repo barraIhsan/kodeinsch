@@ -104,6 +104,7 @@ export const curriculums: Array<{
   {
     title: "Materi IT",
     logo: "/img/logo/code.svg",
+    desc: "(Information Technology)",
     list: [
       "Web Programming",
       "Mobile Programming",
