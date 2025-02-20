@@ -10,11 +10,11 @@ import {
 import styles from "./shadow.module.css";
 import { cn } from "@/lib/utils";
 
-export default function Programs() {
+export default function Programs({ reverse }: { reverse?: boolean }) {
   return (
     <section className="container mx-auto py-8 border-x border-gray-200">
       <Carousel className="space-y-12">
-        <div className="flex flex-col items-start justify-between ">
+        <div className="flex flex-col items-start justify-between">
           <div className="flex gap-4 justify-between pb-2 items-center w-full border-b border-gray-200">
             <div className="flex gap-4 ">
               <Image
@@ -31,7 +31,7 @@ export default function Programs() {
               <CarouselNext className="static translate-y-0 sm:size-10 xl:size-12" />
             </div>
           </div>
-          <div className="flex gap-4 flex-col-reverse xl:flex-row">
+          <div className={cn("flex gap-4 flex-col-reverse xl:flex-row", reverse && "flex-col-reverse")}>
             <div className="flex-1 py-24 px-12 border-r border-gray-200">
               <p className="text-gray-400 text-lg md:text-xl font-thin max-w-4xl  ">
                 Dengan kurikulum intensif selama dua bulan di Kampung Inggris
