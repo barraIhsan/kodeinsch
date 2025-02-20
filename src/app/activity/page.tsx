@@ -2,7 +2,7 @@ import ColoredSection from "@/components/ColoredSection";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import HeroActivity from "./Hero";
-import ProgramActivity from "./Program";
+import ProgramActivity from "./Programs";
 
 export default function page() {
   return (
