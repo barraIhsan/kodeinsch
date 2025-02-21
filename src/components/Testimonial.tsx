@@ -9,6 +9,8 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Title } from "./Text";
+import { cn } from "@/lib/utils";
+import styles from "@/app/shadow.module.css";
 
 export default function Testimonial() {
   return (
@@ -26,7 +28,12 @@ export default function Testimonial() {
         <CarouselContent className="-ml-5 pl-12 md:pl-32 xl:pl-48">
           {testimonials.map((testimonial, index) => (
             <CarouselItem key={index} className="min-w-96 pl-5 shrink">
-              <div className="bg-white p-8 rounded-2xl w-full space-y-5 shadow-xl">
+              <div
+                className={cn(
+                  "bg-white p-8 rounded-2xl w-full space-y-5",
+                  styles.shadow,
+                )}
+              >
                 <div className="px-2 py-1 bg-gray-100 border border-gray-200 rounded-lg size-fit shadow-md relative">
                   <div className="flex">
                     {Array.from({ length: 5 }).map((_, index) => (

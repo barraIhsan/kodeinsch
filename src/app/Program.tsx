@@ -4,6 +4,8 @@ import { program as programImg } from "@/constants/images";
 import { programs } from "@/constants/data";
 import { Button } from "@/components/ui/button";
 import { Title } from "@/components/Text";
+import styles from "./shadow.module.css";
+import { cn } from "@/lib/utils";
 
 export default function Program() {
   return (
@@ -18,7 +20,10 @@ export default function Program() {
         {programs.map((program, index) => (
           <div
             key={index}
-            className="border border-black/20 rounded-2xl shadow-lg bg-white p-3"
+            className={cn(
+              "border border-black/20 rounded-2xl bg-white p-3",
+              styles.shadow,
+            )}
           >
             <div className="relative mb-8">
               <Image

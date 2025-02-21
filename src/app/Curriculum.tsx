@@ -1,6 +1,8 @@
 import { Title } from "@/components/Text";
 import { curriculums } from "@/constants/data";
 import Image from "next/image";
+import styles from "./shadow.module.css";
+import { cn } from "@/lib/utils";
 
 export default function Curriculum() {
   return (
@@ -10,7 +12,13 @@ export default function Curriculum() {
       </Title>
       <div className="flex flex-col xl:flex-row gap-10 w-full">
         {curriculums.map((curriculum, index) => (
-          <div className="bg-white p-8 rounded-2xl flex-1 min-w-72" key={index}>
+          <div
+            className={cn(
+              "bg-white p-8 rounded-2xl flex-1 min-w-72",
+              styles.shadow,
+            )}
+            key={index}
+          >
             <Image
               className="size-16 mb-4"
               src={curriculum.logo}
