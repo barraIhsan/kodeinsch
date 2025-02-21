@@ -21,7 +21,7 @@ export default function Program() {
           <div
             key={index}
             className={cn(
-              "border border-black/20 rounded-2xl bg-white p-3",
+              "border border-gray-200 rounded-2xl bg-gradient-to-b from-white to-slate-50 to-70% outline outline-2 outline-white -outline-offset-[3px] p-3",
               styles.shadow,
             )}
           >
