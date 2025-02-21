@@ -9,8 +9,8 @@ import { Title } from "@/components/Text";
 
 export default function Hero() {
   return (
-    <main className="mx-auto overflow-hidden flex flex-col gap-12 2xl:gap-24 justify-center items-center py-36 relative z-0">
-      <div className="flex flex-col items-center container px-5 sm:px-12">
+    <main className="container border-x border-gray-200 mx-auto overflow-hidden flex flex-col gap-12 2xl:gap-24 justify-center items-center py-36 relative z-0">
+      <div className="flex flex-col items-center px-5 sm:px-12">
         <div className="max-w-[85ch] space-y-5 text-center">
           <Title h1>Boarding School dengan fokus IT dan Multimedia</Title>
           <p className="text-lg xl:text-xl text-black/50">
@@ -32,21 +32,20 @@ export default function Hero() {
           <div className="absolute -left-2 -top-3 size-5 rounded-full bg-red-600" />
         </div>
       </div>
-      <div className="relative drop-shadow-xl w-fit container lg:max-w-none">
+      <div className="relative drop-shadow-xl w-fit lg:max-w-none">
         <Image
           {...heros[0]}
           className="w-full lg:w-[45rem] rounded-2xl relative z-10 object-cover"
         />
         <Image
           {...heros[1]}
-          className="w-full lg:w-[40rem] rounded-2xl absolute -bottom-1 -rotate-2 lg:-bottom-8 lg:-right-44 xl:-right-72 2xl:-right-[23rem] lg:rotate-12 object-cover"
+          className="w-full lg:w-[35rem] rounded-2xl absolute -bottom-1 -rotate-2 lg:bottom-5 lg:-right-28 xl:-right-60 2xl:-right-[23rem] lg:rotate-12 object-cover"
         />
         <Image
           {...heros[2]}
-          className="w-full lg:w-[40rem] rounded-2xl absolute bottom-2 rotate-2 lg:-bottom-8 lg:-left-44 xl:-left-72 2xl:-left-[23rem] lg:-rotate-12 object-cover"
+          className="w-full lg:w-[35rem] rounded-2xl absolute bottom-2 rotate-2 lg:bottom-5 lg:-left-28 xl:-left-60 2xl:-left-[23rem] lg:-rotate-12 object-cover"
         />
       </div>
-      <div className="absolute container mx-auto size-full border-x border-gray-200 pointer-events-none" />
     </main>
   );
 }
