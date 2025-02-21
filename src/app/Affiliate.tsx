@@ -2,6 +2,8 @@
 import Image from "next/image";
 import { affiliates } from "@/constants/images";
 import { Title } from "@/components/Text";
+import { cn } from "@/lib/utils";
+import styles from "./shadow.module.css";
 
 export default function Affiliate() {
   return (
@@ -30,7 +32,10 @@ export default function Affiliate() {
       <section className="border-x border-gray-200 flex flex-col xl:flex-row justify-between items-center container mx-auto px-5 sm:px-12 py-32 gap-20 md:gap-16">
         <iframe
           src="https://www.youtube.com/embed/ibJ0lpj1a0E"
-          className="flex-1 rounded-3xl border-none aspect-video size-full"
+          className={cn(
+            "flex-1 rounded-3xl border-none aspect-video size-full",
+            styles.shadow,
+          )}
         />
         <div className="flex-1 space-y-4">
           <Title>Pentingnya Belajar IT di Era Modern</Title>
