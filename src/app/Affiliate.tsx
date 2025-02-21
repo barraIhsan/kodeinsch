@@ -16,11 +16,11 @@ export default function Affiliate() {
               memperluas wawasan dan jaringan mereka untuk masa depan.
             </p>
           </div>
-          <div className="max-w-full sm:max-w-3xl [--gap:3rem] motion-safe:[mask:linear-gradient(90deg,transparent,white_20%,white_80%,transparent)] w-fit overflow-hidden">
+          <div className="max-w-full sm:max-w-3xl [--gap:5rem] motion-safe:[mask:linear-gradient(90deg,transparent,white_20%,white_80%,transparent)] w-fit overflow-hidden">
             <ul className="flex gap-[--gap] w-max animate-scroll">
               {affiliates.concat(affiliates).map((affiliate, index) => (
                 <li key={index}>
-                  <Image {...affiliate} className="h-20 object-contain" />
+                  <Image {...affiliate} className="w-fit h-20 object-contain" />
                 </li>
               ))}
             </ul>

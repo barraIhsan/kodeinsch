@@ -11,11 +11,7 @@ export default function Affiliate() {
       </Title>
       <div className="grid justify-items-center gap-y-24 grid-cols-2 lg:grid-cols-4 py-24">
         {affiliates.map((affiliate, index) => (
-          <Image
-            key={index}
-            {...affiliate}
-            className="h-20 lg:h-32 object-contain"
-          />
+          <Image key={index} {...affiliate} className="h-20 object-contain" />
         ))}
       </div>
     </section>
