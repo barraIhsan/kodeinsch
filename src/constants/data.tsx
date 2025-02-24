@@ -343,3 +343,45 @@ export const facilities: Array<{
     desc: "Asrama",
   },
 ];
+
+export const activites: Array<{
+  img: {
+    src: string;
+    width: number;
+    height: number;
+    alt: string;
+  };
+  head: string;
+  desc: string;
+}> = [
+  {
+    img: {
+      src: "/img/facility/field.png",
+      width: 4032,
+      height: 2268,
+      alt: "",
+    },
+    head: "Kodein Club",
+    desc: "Program dua bulan di Pare Kampung Inggris mengajarkan Bahasa Inggris lewat imersi, membangun kepercayaan diri siswa untuk berinteraksi dalam dunia profesional dan sosial digital.",
+  },
+  {
+    img: {
+      src: "/img/facility/field.png",
+      width: 4032,
+      height: 2268,
+      alt: "",
+    },
+    head: "Koching",
+    desc: "Peserta akan menghabiskan satu bulan di Pare untuk melatih tilawah, memperkuat iman, dan menjadikan Al-Qur'an panduan hidup.",
+  },
+  {
+    img: {
+      src: "/img/facility/field.png",
+      width: 4032,
+      height: 2268,
+      alt: "",
+    },
+    head: "Ekstrakulikuler",
+    desc: "Program ini memberikan kesempatan dan eksperien kepada siswa untuk mengerjakan internal project sebagai simulasi dan persiapan untuk projek-projek eksternal kedepannya.",
+  },
+];

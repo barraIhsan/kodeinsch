@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import HeroActivity from "./Hero";
 import ProgramActivity from "./Program";
+import MoreActivity from "./MoreActivity";
 
 export default function page() {
   return (
@@ -16,6 +17,10 @@ export default function page() {
         <HeroActivity />
       </ColoredSection>
       <ProgramActivity />
+      <div className="relative z-0 container mx-auto py-12 lg:py-24 bg-gradient-to-b overflow-hidden">
+        {" "}
+        <MoreActivity />
+      </div>
       <Footer />
     </>
   );
