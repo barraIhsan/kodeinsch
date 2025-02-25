@@ -2,8 +2,11 @@ import ColoredSection from "@/components/ColoredSection";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import HeroActivity from "./Hero";
-import ProgramActivity from "./Program";
-import MoreActivity from "./MoreActivity";
+// import ProgramActivity from "./Program";
+// import MoreActivity from "./MoreActivity";
+import ProgramOne from "./Program1";
+import ProgramTwo from "./Program2";
+import ProgramThree from "./Program3";
 
 export default function page() {
   return (
@@ -16,10 +19,13 @@ export default function page() {
       >
         <HeroActivity />
       </ColoredSection>
-      <ProgramActivity />
+      {/* <ProgramActivity /> */}
       <div className="relative z-0 container mx-auto py-12 lg:py-24 bg-gradient-to-b overflow-hidden">
         {" "}
-        <MoreActivity />
+        {/* <MoreActivity /> */}
+        <ProgramOne />
+        <ProgramTwo />
+        <ProgramThree />
       </div>
       <Footer />
     </>

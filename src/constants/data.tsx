@@ -356,32 +356,82 @@ export const activites: Array<{
 }> = [
   {
     img: {
-      src: "/img/facility/field.png",
-      width: 4032,
-      height: 2268,
+      src: "/img/MoreActivity/club.png",
       alt: "",
+      width: 2364,
+      height: 1330,
     },
-    head: "Kodein Club",
+    head: "Club",
     desc: "Program dua bulan di Pare Kampung Inggris mengajarkan Bahasa Inggris lewat imersi, membangun kepercayaan diri siswa untuk berinteraksi dalam dunia profesional dan sosial digital.",
   },
   {
     img: {
-      src: "/img/facility/field.png",
+      src: "/img/MoreActivity/koching.png",
+      alt: "",
       width: 4032,
       height: 2268,
-      alt: "",
     },
     head: "Koching",
-    desc: "Peserta akan menghabiskan satu bulan di Pare untuk melatih tilawah, memperkuat iman, dan menjadikan Al-Qur'an panduan hidup.",
+    desc: "Program ini bertujuan untuk mempermudah siswa dalam mengerjakan tugas / project dengan cara konsultasi kepada mentor atau musyrif dalam bidangnya",
   },
   {
     img: {
-      src: "/img/facility/field.png",
-      width: 4032,
-      height: 2268,
+      src: "/img/MoreActivity/ekstrakulikuler.png",
       alt: "",
+      width: 1280,
+      height: 961,
     },
     head: "Ekstrakulikuler",
-    desc: "Program ini memberikan kesempatan dan eksperien kepada siswa untuk mengerjakan internal project sebagai simulasi dan persiapan untuk projek-projek eksternal kedepannya.",
+    desc: "Di samping kegiatan akademik, siswa juga dapat mengikuti futsal dan basket untuk menjaga kebugaran. Kegiatan ini penting untuk melengkapi keterampilan mereka di bidang digital.",
+  },
+  {
+    img: {
+      src: "/img/MoreActivity/tahfidz.png",
+      alt: "",
+      width: 1280,
+      height: 963,
+    },
+    head: "Tahfidz Qur'an",
+    desc: "Program Tahfidz Qur’an mendukung siswa dalam menghafal dan memahami makna Al-Qur’an dengan bimbingan terstruktur, memperkuat hafalan dan nilai-nilai islami.",
+  },
+  {
+    img: {
+      src: "/img/MoreActivity/kajian.png",
+      alt: "",
+      width: 1600,
+      height: 1204,
+    },
+    head: "Kajian Islam",
+    desc: "Program Tahfidz Qur’an mendukung siswa dalam menghafal dan memahami makna Al-Qur’an dengan bimbingan terstruktur, memperkuat hafalan dan nilai-nilai islami.",
+  },
+  {
+    img: {
+      src: "/img/MoreActivity/tryout.png",
+      alt: "",
+      width: 4096,
+      height: 3072,
+    },
+    head: "Tryout Bulanan",
+    desc: "Program Tahfidz Qur’an mendukung siswa dalam menghafal dan memahami makna Al-Qur’an dengan bimbingan terstruktur, memperkuat hafalan dan nilai-nilai islami.",
+  },
+  {
+    img: {
+      src: "/img/MoreActivity/sertifikat.png",
+      alt: "",
+      width: 358,
+      height: 256,
+    },
+    head: "Sertifikat",
+    desc: "Program Tahfidz Qur’an mendukung siswa dalam menghafal dan memahami makna Al-Qur’an dengan bimbingan terstruktur, memperkuat hafalan dan nilai-nilai islami.",
+  },
+  {
+    img: {
+      src: "/img/MoreActivity/ldks.png",
+      alt: "",
+      width: 4096,
+      height: 2731,
+    },
+    head: "LDKS",
+    desc: "Program Tahfidz Qur’an mendukung siswa dalam menghafal dan memahami makna Al-Qur’an dengan bimbingan terstruktur, memperkuat hafalan dan nilai-nilai islami.",
   },
 ];

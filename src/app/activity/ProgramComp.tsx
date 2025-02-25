@@ -31,7 +31,12 @@ export default function Programs({ reverse }: { reverse?: boolean }) {
               <CarouselNext className="static translate-y-0 sm:size-10 xl:size-12" />
             </div>
           </div>
-          <div className={cn("flex gap-4 flex-col-reverse xl:flex-row", reverse && "flex-col-reverse")}>
+          <div
+            className={cn(
+              "flex gap-4 flex-col-reverse xl:flex-row",
+              reverse && "flex-col-reverse"
+            )}
+          >
             <div className="flex-1 py-24 px-12 border-r border-gray-200">
               <p className="text-gray-400 text-lg md:text-xl font-thin max-w-4xl  ">
                 Dengan kurikulum intensif selama dua bulan di Kampung Inggris
