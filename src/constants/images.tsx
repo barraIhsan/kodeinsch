@@ -142,3 +142,59 @@ export const About: Array<{
     height: 80,
   },
 ];
+
+export const MoreActivity: Array<{
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+}> = [
+  {
+    src: "/img/MoreActivity/club.png",
+    alt: "",
+    width: 2364,
+    height: 1330,
+  },
+  {
+    src: "/img/MoreActivity/ekstrakulikuler.png",
+    alt: "",
+    width: 1280,
+    height: 961,
+  },
+  {
+    src: "/img/MoreActivity/kajian.png",
+    alt: "",
+    width: 1600,
+    height: 1204,
+  },
+  {
+    src: "/img/MoreActivity/koching.png",
+    alt: "",
+    width: 4032,
+    height: 2268,
+  },
+  {
+    src: "/img/MoreActivity/sertifikat.png",
+    alt: "",
+    width: 358,
+    height: 256,
+  },
+  {
+    src: "/img/MoreActivity/tahfidz.png",
+    alt: "",
+    width: 1280,
+    height: 963,
+  },
+  {
+    src: "/img/MoreActivity/tryout.png",
+    alt: "",
+    width: 4096,
+    height: 3072,
+  },
+  {
+    src: "/img/MoreActivity/ldks.png",
+    alt: "",
+    width: 4096,
+    height: 2731,
+  },
+];
