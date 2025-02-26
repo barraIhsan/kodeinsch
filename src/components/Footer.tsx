@@ -36,7 +36,7 @@ export default function Footer() {
                   <li
                     className={cn(
                       colors[index],
-                      "text-2xl lg:text-xl 2xl:text-3xl pb-1 w-fit px-5 sm:px-0 2xl:pb-3 border-b border-black/10 font-semibold mb-4",
+                      "text-2xl lg:text-xl 2xl:text-3xl pb-1 w-fit px-5 sm:px-0 2xl:pb-3 border-b border-gray-200 font-semibold mb-4",
                     )}
                   >
                     {link.title}

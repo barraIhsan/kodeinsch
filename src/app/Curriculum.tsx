@@ -14,33 +14,35 @@ export default function Curriculum() {
         {curriculums.map((curriculum, index) => (
           <div
             className={cn(
-              "bg-white p-8 rounded-2xl flex-1 min-w-72",
+              "bg-white rounded-2xl flex-1 min-w-72",
               styles.shadow,
             )}
             key={index}
           >
-            <Image
-              className="size-16 mb-4"
-              src={curriculum.logo}
-              width={80}
-              height={80}
-              alt="logo"
-            />
-            <h2 className="text-2xl font-bold">
-              {curriculum.title}
-              {curriculum.desc && (
-                <small className="font-normal text-base">
-                  {" "}
-                  {curriculum.desc}
-                </small>
-              )}
-            </h2>
-            <hr className="mt-2 mb-5" />
-            <ul className="text-gray-500 list-disc list-inside flex flex-col flex-wrap max-h-[40ch] lg:max-h-[17ch]">
-              {curriculum.list.map((list, index) => (
-                <li key={index}>{list}</li>
-              ))}
-            </ul>
+            <div className="rounded-2xl p-8 bg-gradient-to-b from-white to-slate-50/70 outline outline-2 outline-white -outline-offset-[3px]">
+              <Image
+                className="size-16 mb-4"
+                src={curriculum.logo}
+                width={80}
+                height={80}
+                alt="logo"
+              />
+              <h2 className="text-2xl font-bold">
+                {curriculum.title}
+                {curriculum.desc && (
+                  <small className="font-normal text-base">
+                    {" "}
+                    {curriculum.desc}
+                  </small>
+                )}
+              </h2>
+              <hr className="mt-2 mb-5" />
+              <ul className="text-gray-500 list-disc list-inside flex flex-col flex-wrap max-h-[40ch] lg:max-h-[17ch]">
+                {curriculum.list.map((list, index) => (
+                  <li key={index}>{list}</li>
+                ))}
+              </ul>
+            </div>
           </div>
         ))}
       </div>
