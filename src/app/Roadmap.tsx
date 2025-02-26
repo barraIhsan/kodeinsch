@@ -5,7 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { roadmaps } from "@/constants/data";
+import { roadmaps } from "@/data/roadmap";
 
 export default function Roadmap() {
   let count = 1;

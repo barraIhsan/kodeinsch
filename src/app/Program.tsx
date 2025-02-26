@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import Image from "next/image";
-import { program as programImg } from "@/constants/images";
-import { programs } from "@/constants/data";
+import { programs } from "@/data/programs";
 import { Button } from "@/components/ui/button";
 import { Title } from "@/components/Text";
 import styles from "./shadow.module.css";
@@ -27,11 +26,11 @@ export default function Program() {
           >
             <div className="relative mb-8">
               <Image
-                {...programImg[index]}
+                {...program.img}
                 className="w-full object-cover rounded-md h-40"
               />
               <Image
-                src={programImg[index].logo}
+                src={program.logo}
                 alt=""
                 width={64}
                 height={64}

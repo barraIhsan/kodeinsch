@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import { heros } from "@/constants/images";
 import { Title } from "@/components/Text";
 
 export default function Hero() {
@@ -34,15 +33,24 @@ export default function Hero() {
       </div>
       <div className="relative drop-shadow-xl w-fit lg:max-w-none">
         <Image
-          {...heros[0]}
+          src="/img/hero/home/1.png"
+          alt="hero"
+          width={720}
+          height={500}
           className="w-full lg:w-[45rem] rounded-2xl relative z-10 object-cover"
         />
         <Image
-          {...heros[1]}
+          src="/img/hero/home/2.png"
+          alt="hero"
+          width={620}
+          height={460}
           className="w-full lg:w-[35rem] rounded-2xl absolute -bottom-1 -rotate-2 lg:bottom-5 lg:-right-28 xl:-right-60 2xl:-right-[23rem] lg:rotate-12 object-cover"
         />
         <Image
-          {...heros[2]}
+          src="/img/hero/home/3.png"
+          alt="hero"
+          width={620}
+          height={460}
           className="w-full lg:w-[35rem] rounded-2xl absolute bottom-2 rotate-2 lg:bottom-5 lg:-left-28 xl:-left-60 2xl:-left-[23rem] lg:-rotate-12 object-cover"
         />
       </div>

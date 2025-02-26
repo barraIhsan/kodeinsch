@@ -7,7 +7,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Title } from "@/components/Text";
-import { facilities } from "@/constants/data";
+import { facilities } from "@/data/facility";
 import Image from "next/image";
 
 export default function Facility() {

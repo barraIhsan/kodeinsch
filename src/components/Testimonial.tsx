@@ -1,6 +1,6 @@
 import { Star, StarHalf } from "lucide-react";
 import Image from "next/image";
-import { testimonials } from "@/constants/data";
+import { testimonials } from "@/data/testimonial";
 import {
   Carousel,
   CarouselContent,

@@ -1,5 +1,5 @@
 import { Title } from "@/components/Text";
-import { curriculums } from "@/constants/data";
+import { curriculums } from "@/data/curriculum";
 import Image from "next/image";
 import styles from "./shadow.module.css";
 import { cn } from "@/lib/utils";

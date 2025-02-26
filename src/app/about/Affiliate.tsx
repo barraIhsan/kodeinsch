@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Title } from "@/components/Text";
-import { affiliates } from "@/constants/images";
+import { affiliates } from "@/data/affiliate";
 import Image from "next/image";
 
 export default function Affiliate() {

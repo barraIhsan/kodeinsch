@@ -20,7 +20,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
-import { leftMenus, rightMenus } from "@/constants/data";
+import { leftMenus, rightMenus } from "@/data/navbar";
 
 export default function Navbar() {
   const [navMobileOpen, setNavMobileOpen] = useState(false);

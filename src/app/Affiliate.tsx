@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import Image from "next/image";
-import { affiliates } from "@/constants/images";
+import { affiliates } from "@/data/affiliate";
 import { Title } from "@/components/Text";
 import { cn } from "@/lib/utils";
 import styles from "./shadow.module.css";
