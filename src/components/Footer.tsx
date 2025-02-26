@@ -14,8 +14,8 @@ import {
 export default function Footer() {
   const colors = ["text-kodein-orange", "text-kodein-blue", "text-kodein-red"];
   return (
-    <div className="container mx-auto pb-24 pt-12 border-x border-gray-200">
-      <footer className="flex flex-col gap-6 lg:gap-10 bg-white drop-shadow-xl border-y border-gray-200 size-full px-5 sm:px-12 lg:px-16 py-5 sm:py-10">
+    <div className="container mx-auto pb-24 pt-12 border-x">
+      <footer className="flex flex-col gap-6 lg:gap-10 bg-white drop-shadow-xl border-y size-full px-5 sm:px-12 lg:px-16 py-5 sm:py-10">
         <div className="flex flex-col gap-16 lg:flex-row justify-between pt-4">
           <div className="flex justify-center items-start">
             <Image
@@ -36,7 +36,7 @@ export default function Footer() {
                   <li
                     className={cn(
                       colors[index],
-                      "text-2xl lg:text-xl 2xl:text-3xl pb-1 w-fit px-5 sm:px-0 2xl:pb-3 border-b border-gray-200 font-semibold mb-4",
+                      "text-2xl lg:text-xl 2xl:text-3xl pb-1 w-fit px-5 sm:px-0 2xl:pb-3 border-b font-semibold mb-4",
                     )}
                   >
                     {link.title}
@@ -62,7 +62,7 @@ export default function Footer() {
             className="aspect-square size-12 2xl:size-14 rounded-2xl"
             onClick={() => scrollTo({ top: 0, behavior: "smooth" })}
           >
-            <ArrowUp className="size-4 2xl:!size-6" />
+            <ArrowUp className="size-4 2xl:size-6!" />
           </Button>
         </div>
         <div className="flex flex-col gap-3 md:flex-row justify-between py-5">

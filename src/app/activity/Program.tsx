@@ -19,9 +19,9 @@ export default function Program({
   activities: Array<activity>;
 }) {
   return (
-    <section className="z-10 py-12 border-x border-gray-200">
+    <section className="z-10 py-12 border-x">
       <Carousel className="space-y-12">
-        <div className="flex items-center justify-between px-5 border-y border-gray-200">
+        <div className="flex items-center justify-between px-5 border-y">
           <Title className="text-black my-3">{title}</Title>
           <div className="flex gap-3">
             <CarouselPrevious className="static translate-y-0 sm:size-10 xl:size-12" />
@@ -36,7 +36,7 @@ export default function Program({
             >
               <div
                 className={cn(
-                  "border border-gray-200 rounded-2xl bg-gradient-to-b from-white to-slate-50 to-70% outline outline-2 outline-white -outline-offset-[3px] p-3 h-full",
+                  "border rounded-2xl bg-linear-to-b from-white to-slate-50 to-70% outline-2 outline-white -outline-offset-3 p-3 h-full",
                   styles.shadow,
                 )}
               >

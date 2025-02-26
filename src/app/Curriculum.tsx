@@ -19,7 +19,7 @@ export default function Curriculum() {
             )}
             key={index}
           >
-            <div className="rounded-2xl p-8 bg-gradient-to-b from-white to-slate-50/70 outline outline-2 outline-white -outline-offset-[3px]">
+            <div className="rounded-2xl p-8 bg-linear-to-b from-white to-slate-50/70 outline-2 outline-white -outline-offset-3">
               <Image
                 className="size-16 mb-4"
                 src={curriculum.logo}

@@ -8,7 +8,7 @@ import { Title } from "@/components/Text";
 
 export default function Hero() {
   return (
-    <main className="container border-x border-gray-200 mx-auto overflow-hidden flex flex-col gap-12 2xl:gap-24 justify-center items-center py-36 relative z-0">
+    <main className="container border-x mx-auto overflow-hidden flex flex-col gap-12 2xl:gap-24 justify-center items-center py-36 relative z-0">
       <div className="flex flex-col items-center px-5 sm:px-12">
         <div className="max-w-[85ch] space-y-5 text-center">
           <Title h1>Boarding School dengan fokus IT dan Multimedia</Title>
@@ -24,7 +24,7 @@ export default function Hero() {
               Gelombang ketiga: 1 Feb - 30 Jun 2025
             </p>
           </div>
-          <Button className="shadow-2xl bg-gradient-to-b from-[#4385DC] to-[#1B52C8] hover:from-[#1B52C8] hover:to-[#4385DC]">
+          <Button className="shadow-2xl bg-linear-to-b from-[#4385DC] to-[#1B52C8] hover:from-[#1B52C8] hover:to-[#4385DC]">
             <Link href="/form">Daftar Sekarang</Link>
           </Button>
           <div className="absolute -left-2 -top-3 size-5 animate-ping rounded-full bg-red-600" />
