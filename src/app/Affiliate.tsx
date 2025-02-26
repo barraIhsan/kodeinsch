@@ -16,8 +16,8 @@ export default function Affiliate() {
               memperluas wawasan dan jaringan mereka untuk masa depan.
             </p>
           </div>
-          <div className="max-w-full sm:max-w-3xl [--gap:50px] md:[--gap:100px] motion-safe:[mask:linear-gradient(90deg,transparent,white_20%,white_80%,transparent)] w-fit overflow-hidden">
-            <ul className="flex gap-[--gap] md:gap-12 w-max animate-scroll">
+          <div className="max-w-full sm:max-w-3xl [--gap:3rem] motion-safe:[mask:linear-gradient(90deg,transparent,white_20%,white_80%,transparent)] w-fit overflow-hidden">
+            <ul className="flex gap-[--gap] w-max animate-scroll">
               {affiliates.concat(affiliates).map((affiliate, index) => (
                 <li key={index}>
                   <Image {...affiliate} className="h-20 object-contain" />

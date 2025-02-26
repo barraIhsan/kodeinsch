@@ -203,7 +203,7 @@ export const footerLinks: Array<{
     links: [
       {
         label: "Tentang",
-        href: "#",
+        href: "/about",
       },
       {
         label: "Berita",
@@ -241,7 +241,7 @@ export const footerLinks: Array<{
       },
       {
         label: "Daftar",
-        href: "#",
+        href: "/form",
       },
     ],
   },

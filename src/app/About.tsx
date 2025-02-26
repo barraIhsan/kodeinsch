@@ -9,7 +9,7 @@ export default function About() {
           Mengapa Kami Hadir
         </Title>
         <p className="text-white text-md md:text-xl">
-          <span className="font-extrabold">Sekolah Developer Indonesia</span>{" "}
+          <span className="font-bold">Sekolah Developer Indonesia </span>
           dirancang untuk mempersiapkan siswa menghadapi dunia pendidikan tinggi
           dan karier di bidang teknologi dan industri kreatif. Kami berfokus
           pada membentuk generasi yang inovatif, berpikiran terbuka, dan siap
@@ -26,7 +26,7 @@ export default function About() {
           width={4032}
           height={2268}
           alt=""
-          src="/img/about/about.png"
+          src="/img/about.png"
         />
       </div>
     </section>
