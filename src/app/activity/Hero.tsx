@@ -31,9 +31,9 @@ export default function Hero() {
               styles.shadow,
             )}
           >
-            <p className="text-xs font-semibold">Hysteric Festival</p>
+            <p className="text-xs font-semibold">Kawah Ijen</p>
             <p className="text-[0.5rem] text-white/60">
-              Lorem ipsum dolor sit amet
+              Para Siswa healing di Kawah Ijen setelah 2 bulan belajar di Pare.
             </p>
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function Hero() {
             alt="hero"
             width={300}
             height={384}
-            className="object-right w-[18rem] h-96 object-cover rounded-lg"
+            className="w-[18rem] h-96 object-cover rounded-lg"
           />
           <div
             className={cn(
@@ -51,9 +51,9 @@ export default function Hero() {
               styles.shadow,
             )}
           >
-            <p className="text-xs font-semibold">Kunjungan CCIT-FTUI</p>
+            <p className="text-xs font-semibold">Go-Kart</p>
             <p className="text-[0.5rem] text-white/60">
-              Workshop mengenai Cloud Computing AWS.
+              Siswa healing dengan bermain permainan Go-Kart.
             </p>
           </div>
         </div>
