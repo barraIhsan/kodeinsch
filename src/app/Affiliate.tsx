@@ -2,6 +2,8 @@
 import Image from "next/image";
 import { affiliates } from "@/constants/images";
 import { Title } from "@/components/Text";
+import { cn } from "@/lib/utils";
+import styles from "./shadow.module.css";
 
 export default function Affiliate() {
   return (
@@ -16,11 +18,11 @@ export default function Affiliate() {
               memperluas wawasan dan jaringan mereka untuk masa depan.
             </p>
           </div>
-          <div className="max-w-full sm:max-w-3xl [--gap:3rem] motion-safe:[mask:linear-gradient(90deg,transparent,white_20%,white_80%,transparent)] w-fit overflow-hidden">
+          <div className="max-w-full sm:max-w-3xl [--gap:5rem] motion-safe:[mask:linear-gradient(90deg,transparent,white_20%,white_80%,transparent)] w-fit overflow-hidden">
             <ul className="flex gap-[--gap] w-max animate-scroll">
               {affiliates.concat(affiliates).map((affiliate, index) => (
                 <li key={index}>
-                  <Image {...affiliate} className="h-20 object-contain" />
+                  <Image {...affiliate} className="w-fit h-20 object-contain" />
                 </li>
               ))}
             </ul>
@@ -30,7 +32,10 @@ export default function Affiliate() {
       <section className="border-x border-gray-200 flex flex-col xl:flex-row justify-between items-center container mx-auto px-5 sm:px-12 py-32 gap-20 md:gap-16">
         <iframe
           src="https://www.youtube.com/embed/ibJ0lpj1a0E"
-          className="flex-1 rounded-3xl border-none aspect-video size-full"
+          className={cn(
+            "flex-1 rounded-3xl border-none aspect-video size-full",
+            styles.shadow,
+          )}
         />
         <div className="flex-1 space-y-4">
           <Title>Pentingnya Belajar IT di Era Modern</Title>

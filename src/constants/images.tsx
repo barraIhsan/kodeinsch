@@ -62,10 +62,22 @@ export const affiliates: Array<{
     height: 108,
   },
   {
-    src: "/img/afiliasi/Rabbani.png",
+    src: "/img/afiliasi/rabbani.png",
     alt: "",
-    width: 114,
-    height: 62,
+    width: 300,
+    height: 166,
+  },
+  {
+    src: "/img/afiliasi/kodeintekno.png",
+    alt: "",
+    width: 1280,
+    height: 245,
+  },
+  {
+    src: "/img/afiliasi/bintangpelajar.png",
+    alt: "",
+    width: 768,
+    height: 489,
   },
 ];
 

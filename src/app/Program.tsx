@@ -4,21 +4,26 @@ import { program as programImg } from "@/constants/images";
 import { programs } from "@/constants/data";
 import { Button } from "@/components/ui/button";
 import { Title } from "@/components/Text";
+import styles from "./shadow.module.css";
+import { cn } from "@/lib/utils";
 
 export default function Program() {
   return (
     <section
       id="program"
-      className="border-x border-gray-200 container mx-auto grid gap-14 lg:pt-12 pb-12 lg:pb-36"
+      className="border-x border-gray-200 container mx-auto grid gap-14 lg:pt-12 pb-12 lg:pb-20"
     >
-      <Title className="py-2.5 text-center border-y border-gray-200">
+      <Title className="py-2.5 text-center border-b border-gray-200">
         Program Unggulan
       </Title>
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8">
         {programs.map((program, index) => (
           <div
             key={index}
-            className="border border-black/20 rounded-2xl shadow-lg bg-white p-3"
+            className={cn(
+              "border border-gray-200 rounded-2xl bg-gradient-to-b from-white to-slate-50 to-70% outline outline-2 outline-white -outline-offset-[3px] p-3",
+              styles.shadow,
+            )}
           >
             <div className="relative mb-8">
               <Image
@@ -40,12 +45,19 @@ export default function Program() {
               <p className="text-sm sm:text-base text-gray-500 mt-2 mb-8">
                 {program.desc}
               </p>
-              <Button variant="outline" className="px-6 py-3">
+              <Button variant="outline" size="lg">
                 Info Selengkapnya
               </Button>
             </div>
           </div>
         ))}
+      </div>
+      <div className="flex items-center gap-2.5">
+        <hr className="w-full" />
+        <Button variant="outline" size="lg">
+          Lihat Semua
+        </Button>
+        <hr className="w-full" />
       </div>
     </section>
   );

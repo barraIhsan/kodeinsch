@@ -6,8 +6,30 @@
    fill="none"
    version="1.1"
    id="svg42"
+   sodipodi:docname="about.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="10.530569"
+     inkscape:cx="103.65062"
+     inkscape:cy="46.008911"
+     inkscape:window-width="2048"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10" />
   <mask
      id="path-1-inside-1_2026_12"
      fill="#ffffff">
@@ -94,14 +116,16 @@
        clip-rule="evenodd"
        d="m 89.9862,41.4773 c -3.118,-0.81 -5.8185,2.2825 -4.599,5.2601 L 98.6388,79.035 c 1.3393,3.2671 5.9812,3.2223 7.2582,-0.0715 l 4.822,-12.4739 c 0.424,-1.0962 1.22,-2.0081 2.249,-2.5757 l 11.711,-6.4582 c 3.092,-1.7065 2.51,-6.3152 -0.907,-7.2021 z"
        fill="#000000"
-       id="path9" />
+       id="path9"
+       style="fill:#ffffff" />
     <path
        fill-rule="evenodd"
        clip-rule="evenodd"
-       d="m 89.9862,41.4773 c -3.118,-0.81 -5.8185,2.2825 -4.599,5.2601 L 98.6388,79.035 c 1.3393,3.2671 5.9812,3.2223 7.2582,-0.0715 l 4.822,-12.4739 c 0.424,-1.0962 1.22,-2.0081 2.249,-2.5757 l 11.711,-6.4582 c 3.092,-1.7065 2.51,-6.3152 -0.907,-7.2021 z"
+       d="m 89.937762,42.147031 c -3.118,-0.81 -5.8185,2.2825 -4.599,5.2601 l 13.2516,32.2976 c 1.3393,3.2671 5.981198,3.2223 7.258198,-0.0715 l 4.822,-12.4739 c 0.424,-1.0962 1.22,-2.0081 2.249,-2.5757 l 11.711,-6.4582 c 3.092,-1.7065 2.51,-6.3152 -0.907,-7.2021 z"
        stroke="#ffffff"
        stroke-width="2"
-       id="path10" />
+       id="path10"
+       style="fill:#ffffff;stroke:#000000;stroke-width:3.6;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <defs
      id="defs42">
