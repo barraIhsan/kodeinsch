@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Hero from "./Hero";
 import Program from "./Program";
-import { classMeet, musabaqah, studyTour } from "@/data/activity";
+import { classMeet, studyTour } from "@/data/activity";
 
 export default function page() {
   return (
@@ -16,10 +16,9 @@ export default function page() {
       >
         <Hero />
       </ColoredSection>
-      <div className="container mx-auto overflow-hidden">
+      <div className="container mx-auto overflow-hidden last:pb-20">
         <Program title="Study Tour" activities={studyTour} />
         <Program title="Class Meeting" activities={classMeet} />
-        <Program title="Musabaqah Hifdzil Quran" activities={musabaqah} />
       </div>
       <Footer />
     </>

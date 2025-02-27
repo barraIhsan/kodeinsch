@@ -18,7 +18,7 @@ export const facilities: Array<{
   },
   {
     img: {
-      src: "/img/facility/field.png",
+      src: "/img/placeholder.png",
       width: 4032,
       height: 2268,
       alt: "",
@@ -27,7 +27,7 @@ export const facilities: Array<{
   },
   {
     img: {
-      src: "/img/facility/field.png",
+      src: "/img/placeholder.png",
       width: 4032,
       height: 2268,
       alt: "",
@@ -36,7 +36,7 @@ export const facilities: Array<{
   },
   {
     img: {
-      src: "/img/facility/field.png",
+      src: "/img/placeholder.png",
       width: 4032,
       height: 2268,
       alt: "",
@@ -45,7 +45,7 @@ export const facilities: Array<{
   },
   {
     img: {
-      src: "/img/facility/field.png",
+      src: "/img/placeholder.png",
       width: 4032,
       height: 2268,
       alt: "",

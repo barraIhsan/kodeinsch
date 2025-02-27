@@ -33,37 +33,4 @@ export const classMeet: Array<activity> = [
     title: "Koching",
     desc: "Program ini bertujuan untuk mempermudah siswa dalam mengerjakan tugas / project dengan cara konsultasi kepada mentor atau musyrif dalam bidangnya",
   },
-  {
-    src: "ekstrakulikuler.png",
-    title: "Ekstrakulikuler",
-    desc: "Di samping kegiatan akademik, siswa juga dapat mengikuti futsal dan basket untuk menjaga kebugaran. Kegiatan ini penting untuk melengkapi keterampilan mereka di bidang digital.",
-  },
-];
-
-export const musabaqah: Array<activity> = [
-  {
-    src: "tahfidz.png",
-    title: "Tahfidz Qur'an",
-    desc: "Program Tahfidz Qur’an mendukung siswa dalam menghafal dan memahami makna Al-Qur’an dengan bimbingan terstruktur, memperkuat hafalan dan nilai-nilai islami.",
-  },
-  {
-    src: "kajian.png",
-    title: "Kajian Islam",
-    desc: "Program Tahfidz Qur’an mendukung siswa dalam menghafal dan memahami makna Al-Qur’an dengan bimbingan terstruktur, memperkuat hafalan dan nilai-nilai islami.",
-  },
-  {
-    src: "tryout.png",
-    title: "Tryout Bulanan",
-    desc: "Program Tahfidz Qur’an mendukung siswa dalam menghafal dan memahami makna Al-Qur’an dengan bimbingan terstruktur, memperkuat hafalan dan nilai-nilai islami.",
-  },
-  {
-    src: "sertifikat.png",
-    title: "Sertifikat",
-    desc: "Program Tahfidz Qur’an mendukung siswa dalam menghafal dan memahami makna Al-Qur’an dengan bimbingan terstruktur, memperkuat hafalan dan nilai-nilai islami.",
-  },
-  {
-    src: "ldks.png",
-    title: "LDKS",
-    desc: "Program Tahfidz Qur’an mendukung siswa dalam menghafal dan memahami makna Al-Qur’an dengan bimbingan terstruktur, memperkuat hafalan dan nilai-nilai islami.",
-  },
 ];
