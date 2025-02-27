@@ -19,7 +19,7 @@ export default function Program({
   activities: Array<activity>;
 }) {
   return (
-    <section className="z-10 py-12 border-x">
+    <section className="z-10 py-12 border-x last:pb-24">
       <Carousel className="space-y-12">
         <div className="flex items-center justify-between px-5 border-y">
           <Title className="text-black my-3">{title}</Title>

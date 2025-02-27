@@ -11,10 +11,10 @@ import {
   SiTiktok,
 } from "@icons-pack/react-simple-icons";
 
-export default function Footer() {
+export default function Footer({ className }: { className?: string }) {
   const colors = ["text-kodein-orange", "text-kodein-blue", "text-kodein-red"];
   return (
-    <div className="container mx-auto pb-24 pt-12 border-x">
+    <div className={cn("container mx-auto pb-24 pt-12 border-x", className)}>
       <footer className="flex flex-col gap-6 lg:gap-10 bg-white drop-shadow-xl border-y size-full px-5 sm:px-12 lg:px-16 py-5 sm:py-10">
         <div className="flex flex-col gap-16 lg:flex-row justify-between pt-4">
           <div className="flex justify-center items-start">

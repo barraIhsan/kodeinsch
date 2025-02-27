@@ -16,11 +16,11 @@ export default function page() {
       >
         <Hero />
       </ColoredSection>
-      <div className="container mx-auto overflow-hidden last:pb-20">
+      <div className="container mx-auto overflow-hidden">
         <Program title="Study Tour" activities={studyTour} />
         <Program title="Class Meeting" activities={classMeet} />
       </div>
-      <Footer />
+      <Footer className="pt-0" />
     </>
   );
 }
