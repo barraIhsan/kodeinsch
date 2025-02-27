@@ -32,7 +32,7 @@ export const links: Array<{
     links: [
       {
         label: "Kegiatan",
-        href: "#",
+        href: "/activity",
       },
       {
         label: "Portfolio",
