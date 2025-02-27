@@ -13,7 +13,7 @@ export default function page() {
     <>
       <Navbar />
       <ColoredSection
-        className="from-[#225EDB] to-[#205BD7] mt-24"
+        className="from-[#225EDB] to-[#205BD7] mt-20"
         left="hidden"
         right="-right-36 -top-16"
       >

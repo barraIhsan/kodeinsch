@@ -10,7 +10,7 @@ export default function page() {
     <>
       <Navbar />
       <ColoredSection
-        className="from-[#FF9D2D] to-[#EF7E30] mt-24"
+        className="from-[#FF9D2D] to-[#EF7E30] mt-20"
         left="-left-72 -bottom-20"
         right="-right-52 -top-16"
       >
