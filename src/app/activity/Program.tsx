@@ -28,7 +28,7 @@ export default function Program({
             <CarouselNext className="static translate-y-0 sm:size-10 xl:size-12" />
           </div>
         </div>
-        <CarouselContent className="px-3 divide-x divide-gray-200 pl-12">
+        <CarouselContent className="px-3 pl-12">
           {activities.map((activity, index) => (
             <CarouselItem
               key={index}
