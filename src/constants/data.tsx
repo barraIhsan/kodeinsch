@@ -86,8 +86,53 @@ export const programs: Array<{
   },
   {
     title: "Kodein Incubator",
-    desc: "Dua bulan di Pare Kampung Inggris akan memperkuat kemampuan Bahasa Inggris siswa, memastikan komunikasi efektif dalam dunia digital.",
+    desc: "Di KODEIN Incubator, siswa terlibat dalam proyek internal sebagai simulasi dunia kerja, membekali mereka dengan pengalaman yang relevan untuk proyek eksternal.",
     href: "#",
     image: 2
   },
 ]
+
+export const curriculum: Array<{
+  title: string;
+  desc: string;
+  details: string[];
+  image: number;
+}> = [
+  {
+    title: "Materi Diniyah",
+    desc: "",
+    details: ["Tauhid", "Tahfidz", "Tafsir", "Hadist", "Fiqih", "Siroh"],
+    image: 1,
+  },
+  {
+    title: "Materi IT",
+    desc: "(Information Technology)",
+    details: [
+      "Web Programming",
+      "Mobile Programming",
+      "UI/UX",
+      "Database",
+      "Graphic Design",
+      "Motion Graphic",
+      "Vidio Editing",
+      "Networking",
+      "IoT",
+    ],
+    image: 2,
+  },
+  {
+    title: "Materi Diknas",
+    desc: "",
+    details: [
+      "Matematika",
+      "Bahasa Indonesia",
+      "Bahasa Inggris",
+      "IPA Terpadu",
+      "IPS Terpadu",
+      "PKN",
+      "Try Out UTBK",
+    ],
+    image: 3,
+  },
+];
+

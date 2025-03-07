@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import { collage } from "@/constants/images";
+import { collage } from "@/constants/collage";
 
 export default function Hero() {
   return (
