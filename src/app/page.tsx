@@ -1,7 +1,20 @@
 import Navbar from "@/components/Navbar";
+<<<<<<< HEAD
 import Hero from "@/components/Hero";
 import Program from "@/components/Program";
 import About from "@/components/About";
+=======
+import Hero from "@/app/Hero";
+import Affiliate from "@/app/Affiliate";
+import Program from "@/app/Program";
+import Footer from "@/components/Footer";
+import About from "@/app/About";
+import Curriculum from "@/app/Curriculum";
+import Roadmap from "@/app/Roadmap";
+import Testimonial from "@/components/Testimonial";
+import ColoredSection from "@/components/ColoredSection";
+import FloatingButton from "@/components/FloatingButton";
+>>>>>>> 4b33628534dc17935c2baaf7e918b2f4c82f01a7
 
 export default function Home() {
   return (
@@ -9,7 +22,35 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Program />
+<<<<<<< HEAD
       <About />
+=======
+
+      {/* Blue Section */}
+      <ColoredSection
+        className="from-[#225EDC] to-[#1F58D2]"
+        left="-left-52 bottom-12"
+        right="-top-44 -right-36"
+      >
+        <About />
+        <Curriculum />
+      </ColoredSection>
+
+      <Affiliate />
+
+      {/* Orange Section */}
+      <ColoredSection
+        className="from-[#FF9D2D] to-kodein-orange !px-0"
+        left="-left-36"
+        right="-right-48 -top-16"
+      >
+        <Roadmap />
+        <Testimonial />
+      </ColoredSection>
+
+      <Footer />
+      <FloatingButton />
+>>>>>>> 4b33628534dc17935c2baaf7e918b2f4c82f01a7
     </>
   );
 }
