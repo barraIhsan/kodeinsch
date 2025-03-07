@@ -84,35 +84,10 @@ export const programs: Array<{
     href: "#",
   },
   {
-<<<<<<< HEAD
-    title: "Kodein Incubator",
-    desc: "Di KODEIN Incubator, siswa terlibat dalam proyek internal sebagai simulasi dunia kerja, membekali mereka dengan pengalaman yang relevan untuk proyek eksternal.",
-=======
     title: "Incubator",
     desc: "Di Incubator, siswa terlibat dalam proyek internal sebagai simulasi dunia kerja, membekali mereka dengan pengalaman yang relevan untuk proyek eksternal.",
->>>>>>> 4b33628534dc17935c2baaf7e918b2f4c82f01a7
     href: "#",
   },
-<<<<<<< HEAD
-]
-
-export const curriculum: Array<{
-  title: string;
-  desc: string;
-  details: string[];
-  image: number;
-}> = [
-  {
-    title: "Materi Diniyah",
-    desc: "",
-    details: ["Tauhid", "Tahfidz", "Tafsir", "Hadist", "Fiqih", "Siroh"],
-    image: 1,
-  },
-  {
-    title: "Materi IT",
-    desc: "(Information Technology)",
-    details: [
-=======
 ];
 
 export const curriculums: Array<{
@@ -131,25 +106,12 @@ export const curriculums: Array<{
     logo: "/img/logo/code.svg",
     desc: "(Information Technology)",
     list: [
->>>>>>> 4b33628534dc17935c2baaf7e918b2f4c82f01a7
       "Web Programming",
       "Mobile Programming",
       "UI/UX",
       "Database",
       "Graphic Design",
       "Motion Graphic",
-<<<<<<< HEAD
-      "Vidio Editing",
-      "Networking",
-      "IoT",
-    ],
-    image: 2,
-  },
-  {
-    title: "Materi Diknas",
-    desc: "",
-    details: [
-=======
       "Video Editing",
       "Networking",
       "IoT",
@@ -159,21 +121,10 @@ export const curriculums: Array<{
     title: "Materi Diknas",
     logo: "/img/logo/diknas.svg",
     list: [
->>>>>>> 4b33628534dc17935c2baaf7e918b2f4c82f01a7
       "Matematika",
       "Bahasa Indonesia",
       "Bahasa Inggris",
       "IPA Terpadu",
-<<<<<<< HEAD
-      "IPS Terpadu",
-      "PKN",
-      "Try Out UTBK",
-    ],
-    image: 3,
-  },
-];
-
-=======
       "Try Out UTBK",
     ],
   },
@@ -393,4 +344,3 @@ export const facilities: Array<{
     desc: "Asrama",
   },
 ];
->>>>>>> 4b33628534dc17935c2baaf7e918b2f4c82f01a7
