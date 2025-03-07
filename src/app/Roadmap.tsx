@@ -5,7 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { roadmaps } from "@/constants/data";
+import { roadmaps } from "@/data/roadmap";
 
 export default function Roadmap() {
   let count = 1;
@@ -21,7 +21,7 @@ export default function Roadmap() {
               <>
                 <div className="hidden lg:block" />
                 <div className="relative z-10 lg:block hidden">
-                  <div className="flex justify-center items-center bg-gradient-to-b from-[#2F6CD1] to-[#1A53C8] relative rounded-2xl size-44 bg-clip-padding border-2 border-transparent before:absolute before:inset-0 before:-z-10 before:rounded-[inherit] before:-m-[2px] before:bg-gradient-to-b before:from-[#4385DC] before:to-[#1B52C8]">
+                  <div className="flex justify-center items-center bg-linear-to-b from-[#2F6CD1] to-[#1A53C8] relative rounded-2xl size-44 bg-clip-padding border-2 border-transparent before:absolute before:inset-0 before:-z-10 before:rounded-[inherit] before:-m-[2px] before:bg-linear-to-b before:from-[#4385DC] before:to-[#1B52C8]">
                     <p className="font-extrabold text-4xl text-white">
                       1{index}
                     </p>
@@ -32,7 +32,7 @@ export default function Roadmap() {
             <div className="relative z-10 lg:hidden block">
               <div
                 className={
-                  `flex justify-center items-center bg-gradient-to-b from-[#2F6CD1] to-[#1A53C8] rounded-2xl size-44 relative mx-auto bg-clip-padding border-2 border-transparent before:absolute before:inset-0 before:-z-10 before:rounded-[inherit] before:-m-[2px] before:bg-gradient-to-b before:from-[#4385DC] before:to-[#1B52C8]` +
+                  `flex justify-center items-center bg-linear-to-b from-[#2F6CD1] to-[#1A53C8] rounded-2xl size-44 relative mx-auto bg-clip-padding border-2 border-transparent before:absolute before:inset-0 before:-z-10 before:rounded-[inherit] before:-m-[2px] before:bg-linear-to-b before:from-[#4385DC] before:to-[#1B52C8]` +
                   (index != 0 ? " mt-12" : "")
                 }
               >
@@ -47,7 +47,7 @@ export default function Roadmap() {
                   key={index}
                 >
                   <AccordionTrigger className="border-none px-10 py-5 font-extrabold text-3xl hover:no-underline sm:gap-28">
-                    <p className="text-transparent bg-gradient-to-b from-[#2B66CF] to-[#2058CA] bg-clip-text">
+                    <p className="text-transparent bg-linear-to-b from-[#2B66CF] to-[#2058CA] bg-clip-text">
                       Semester {count++}
                     </p>
                   </AccordionTrigger>
@@ -67,7 +67,7 @@ export default function Roadmap() {
             {index % 2 == 0 && (
               <>
                 <div className="relative z-10 lg:block hidden">
-                  <div className="flex justify-center items-center bg-gradient-to-b from-[#2F6CD1] to-[#1A53C8] relative rounded-2xl size-44 bg-clip-padding border-2 border-transparent before:absolute before:inset-0 before:-z-10 before:rounded-[inherit] before:-m-[2px] before:bg-gradient-to-b before:from-[#4385DC] before:to-[#1B52C8]">
+                  <div className="flex justify-center items-center bg-linear-to-b from-[#2F6CD1] to-[#1A53C8] relative rounded-2xl size-44 bg-clip-padding border-2 border-transparent before:absolute before:inset-0 before:-z-10 before:rounded-[inherit] before:-m-[2px] before:bg-linear-to-b before:from-[#4385DC] before:to-[#1B52C8]">
                     <p className="font-extrabold text-4xl text-white">
                       1{index}
                     </p>
@@ -80,7 +80,7 @@ export default function Roadmap() {
         ))}
         <div />
         <div className="relative z-10 xl:size-full">
-          <div className="flex justify-center items-center bg-gradient-to-b from-[#2F6CD1] to-[#1A53C8] relative rounded-2xl px-12 py-5 bg-clip-padding border-2 border-transparent before:absolute before:inset-0 before:-z-10 before:rounded-[inherit] before:-m-[2px] before:bg-gradient-to-b before:from-[#4385DC] before:to-[#1B52C8]">
+          <div className="flex justify-center items-center bg-linear-to-b from-[#2F6CD1] to-[#1A53C8] relative rounded-2xl px-12 py-5 bg-clip-padding border-2 border-transparent before:absolute before:inset-0 before:-z-10 before:rounded-[inherit] before:-m-[2px] before:bg-linear-to-b before:from-[#4385DC] before:to-[#1B52C8]">
             <p className="font-extrabold text-xl sm:text-3xl text-white">
               Lulus
             </p>

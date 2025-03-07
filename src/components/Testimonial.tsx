@@ -1,6 +1,6 @@
 import { Star, StarHalf } from "lucide-react";
 import Image from "next/image";
-import { testimonials } from "@/constants/data";
+import { testimonials } from "@/data/testimonial";
 import {
   Carousel,
   CarouselContent,
@@ -34,7 +34,7 @@ export default function Testimonial() {
                   styles.shadow,
                 )}
               >
-                <div className="px-2 py-1 bg-gray-100 border border-gray-200 rounded-lg size-fit relative">
+                <div className="px-2 py-1 bg-gray-100 border rounded-lg size-fit relative">
                   <div className="flex">
                     {Array.from({ length: 5 }).map((_, index) => (
                       <Star

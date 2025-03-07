@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import Image from "next/image";
-import { program as programImg } from "@/constants/images";
-import { programs } from "@/constants/data";
+import { programs } from "@/data/programs";
 import { Button } from "@/components/ui/button";
 import { Title } from "@/components/Text";
 import styles from "./shadow.module.css";
@@ -11,27 +10,25 @@ export default function Program() {
   return (
     <section
       id="program"
-      className="border-x border-gray-200 container mx-auto grid gap-14 lg:pt-12 pb-12 lg:pb-20"
+      className="border-x container mx-auto grid gap-14 lg:pt-12 pb-12 lg:pb-20"
     >
-      <Title className="py-2.5 text-center border-b border-gray-200">
-        Program Unggulan
-      </Title>
+      <Title className="py-2.5 text-center border-b">Program Unggulan</Title>
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8">
         {programs.map((program, index) => (
           <div
             key={index}
             className={cn(
-              "border border-gray-200 rounded-2xl bg-gradient-to-b from-white to-slate-50 to-70% outline outline-2 outline-white -outline-offset-[3px] p-3",
+              "border rounded-2xl bg-linear-to-b from-white to-slate-50/70 outline-2 outline-white -outline-offset-3 p-3",
               styles.shadow,
             )}
           >
             <div className="relative mb-8">
               <Image
-                {...programImg[index]}
+                {...program.img}
                 className="w-full object-cover rounded-md h-40"
               />
               <Image
-                src={programImg[index].logo}
+                src={program.logo}
                 alt=""
                 width={64}
                 height={64}

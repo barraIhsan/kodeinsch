@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import Image from "next/image";
-import { affiliates } from "@/constants/images";
+import { affiliates } from "@/data/affiliate";
 import { Title } from "@/components/Text";
 import { cn } from "@/lib/utils";
 import styles from "./shadow.module.css";
@@ -8,18 +8,18 @@ import styles from "./shadow.module.css";
 export default function Affiliate() {
   return (
     <>
-      <section className="border-x border-gray-200 container mx-auto pt-32 xl:pt-44">
-        <div className="border-y border-gray-200 flex flex-col items-center gap-16 xl:gap-28 xl:flex-row justify-between px-5 sm:px-12 py-20">
+      <section className="border-x container mx-auto pt-32 xl:pt-44">
+        <div className="border-y flex flex-col items-center gap-16 xl:gap-28 xl:flex-row justify-between px-5 sm:px-12 py-20">
           <div className="space-y-4">
             <Title>Afiliasi Kami</Title>
-            <p className="text-gray-500 text-lg md:text-xl  font-thin max-w-3xl">
+            <p className="text-gray-500 text-lg md:text-xl font-thin max-w-3xl">
               Afiliasi antara lembaga, memberikan siswa akses ke program
               tambahan, beasiswa, dan peluang pertukaran pelajar, yang
               memperluas wawasan dan jaringan mereka untuk masa depan.
             </p>
           </div>
           <div className="max-w-full sm:max-w-3xl [--gap:5rem] motion-safe:[mask:linear-gradient(90deg,transparent,white_20%,white_80%,transparent)] w-fit overflow-hidden">
-            <ul className="flex gap-[--gap] w-max animate-scroll">
+            <ul className="flex gap-(--gap) w-max animate-scroll">
               {affiliates.concat(affiliates).map((affiliate, index) => (
                 <li key={index}>
                   <Image {...affiliate} className="w-fit h-20 object-contain" />
@@ -29,7 +29,7 @@ export default function Affiliate() {
           </div>
         </div>
       </section>
-      <section className="border-x border-gray-200 flex flex-col xl:flex-row justify-between items-center container mx-auto px-5 sm:px-12 py-32 gap-20 md:gap-16">
+      <section className="border-x flex flex-col xl:flex-row justify-between items-center container mx-auto px-5 sm:px-12 py-32 gap-20 md:gap-16">
         <iframe
           src="https://www.youtube.com/embed/ibJ0lpj1a0E"
           className={cn(
