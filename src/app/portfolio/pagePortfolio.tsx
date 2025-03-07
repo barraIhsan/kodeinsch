@@ -1,4 +1,4 @@
-export default function PagePortfolio() {
+export default function HeadPortfolio() {
   return (
     <main className="">
       <div className="container flex justify-center pt-10 pb-5 border-gray-200 mx-auto border-x border b">
