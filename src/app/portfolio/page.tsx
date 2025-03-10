@@ -19,7 +19,7 @@ export default function portfolio() {
       </ColoredSection>
 
       <HeadPortfolio />
-      <div className="relative z-0 container mx-auto pt-24 bg-gradient-to-b overflow-hidden">
+      <div className="relative z-0 container mx-auto bg-gradient-to-b overflow-hidden">
         <PortfolioCards />
       </div>
 
