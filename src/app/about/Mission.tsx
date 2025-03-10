@@ -11,10 +11,8 @@ const missions = [
 
 export default function Mission() {
   return (
-    <section className="container mx-auto border-x border-gray-200 pt-10">
-      <Title className="text-center py-2.5 border-b border-gray-200">
-        Visi Misi Kami
-      </Title>
+    <section className="container mx-auto border-x pt-10">
+      <Title className="text-center py-2.5 border-b">Visi Misi Kami</Title>
       <div className="flex flex-col lg:flex-row">
         <div className="flex-1 p-8 space-y-5">
           <Image
@@ -32,7 +30,7 @@ export default function Mission() {
             </p>
           </div>
         </div>
-        <div className="flex-1 p-8 border-t lg:border-t-0 lg:border-l border-gray-200 space-y-5 pb-40">
+        <div className="flex-1 p-8 border-t lg:border-t-0 lg:border-l space-y-5 pb-40">
           <Image
             src="/img/logo/clip.svg"
             alt=""

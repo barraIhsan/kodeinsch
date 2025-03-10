@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { footerLinks } from "@/constants/data";
+import { links } from "@/data/footer";
 import { cn } from "@/lib/utils";
 import { ArrowUp } from "lucide-react";
 import {
@@ -11,11 +11,11 @@ import {
   SiTiktok,
 } from "@icons-pack/react-simple-icons";
 
-export default function Footer() {
+export default function Footer({ className }: { className?: string }) {
   const colors = ["text-kodein-orange", "text-kodein-blue", "text-kodein-red"];
   return (
-    <div className="container mx-auto pb-24 pt-12 border-x border-gray-200">
-      <footer className="flex flex-col gap-6 lg:gap-10 bg-white drop-shadow-xl border-y border-gray-200 size-full px-5 sm:px-12 lg:px-16 py-5 sm:py-10">
+    <div className={cn("container mx-auto pb-24 pt-12 border-x", className)}>
+      <footer className="flex flex-col gap-6 lg:gap-10 bg-white drop-shadow-xl border-y size-full px-5 sm:px-12 lg:px-16 py-5 sm:py-10">
         <div className="flex flex-col gap-16 lg:flex-row justify-between pt-4">
           <div className="flex justify-center items-start">
             <Image
@@ -27,7 +27,7 @@ export default function Footer() {
             />
           </div>
           <ul className="2xl:max-w-xl 2xl:w-full flex flex-wrap sm:flex-nowrap justify-center sm:justify-start gap-12 lg:text-right">
-            {footerLinks.map((footerLink, index) => (
+            {links.map((link, index) => (
               <li
                 key={index}
                 className="w-full text-center sm:text-left sm:w-fit 2xl:w-full"
@@ -36,12 +36,12 @@ export default function Footer() {
                   <li
                     className={cn(
                       colors[index],
-                      "text-2xl lg:text-xl 2xl:text-3xl pb-1 w-fit px-5 sm:px-0 2xl:pb-3 border-b border-black/10 font-semibold mb-4",
+                      "text-2xl lg:text-xl 2xl:text-3xl pb-1 w-fit px-5 sm:px-0 2xl:pb-3 border-b font-semibold mb-4",
                     )}
                   >
-                    {footerLink.title}
+                    {link.title}
                   </li>
-                  {footerLink.links.map((link, index) => (
+                  {link.links.map((link, index) => (
                     <li
                       key={index}
                       className="text-lg lg:text-base 2xl:text-xl text-gray-500 hover:text-gray-600 transition-colors"
@@ -62,7 +62,7 @@ export default function Footer() {
             className="aspect-square size-12 2xl:size-14 rounded-2xl"
             onClick={() => scrollTo({ top: 0, behavior: "smooth" })}
           >
-            <ArrowUp className="size-4 2xl:!size-6" />
+            <ArrowUp className="size-4 2xl:size-6!" />
           </Button>
         </div>
         <div className="flex flex-col gap-3 md:flex-row justify-between py-5">

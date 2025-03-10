@@ -31,7 +31,7 @@ export default function Home() {
 
       {/* Orange Section */}
       <ColoredSection
-        className="from-[#FF9D2D] to-kodein-orange !px-0"
+        className="from-[#FF9D2D] to-kodein-orange px-0!"
         left="-left-36"
         right="-right-48 -top-16"
       >
