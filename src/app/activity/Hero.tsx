@@ -1,4 +1,11 @@
 import { Title } from "@/components/Text";
+<<<<<<< HEAD
+import Image from "next/image";
+
+export default function Hero() {
+  return (
+    <main className="container mx-auto flex flex-col-reverse lg:flex-row justify-between gap-8 py-14">
+=======
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import styles from "@/app/shadow.module.css";
@@ -6,11 +13,20 @@ import styles from "@/app/shadow.module.css";
 export default function Hero() {
   return (
     <main className="container mx-auto flex flex-col lg:flex-row justify-between gap-12 py-14">
+>>>>>>> origin/master
       <div className="flex-1 flex gap-8 flex-col justify-center">
         <Title className="text-white" shadow>
           Kegiatan - Kegiatan Siswa
         </Title>
         <p className="text-white text-lg lg:text-xl">
+<<<<<<< HEAD
+          Apa aja yang bakal didapat ketika kamu sekolah di Sekolah Developer
+          Indonesia ?
+        </p>
+      </div>
+      <div className="flex-1">
+        <Image src="/img/hero/activity.svg" alt="" width={744} height={460} />
+=======
           Berikut adalah beberapa kegiatan-kegiatan yg kami selenggarakan atau
           kegiatan/lomba yang para siswa SEKOLAH DEVELOPER INDONESIA ikuti
           sesuai inisiatif mereka.
@@ -57,6 +73,7 @@ export default function Hero() {
             </p>
           </div>
         </div>
+>>>>>>> origin/master
       </div>
     </main>
   );
