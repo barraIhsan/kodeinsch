@@ -2,8 +2,8 @@ import ColoredSection from "@/components/ColoredSection";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Hero from "./Hero";
-import Program from "./Program";
 import { studyTour } from "@/data/activity";
+import Program from "./Program";
 
 export default function page() {
   return (
@@ -18,6 +18,8 @@ export default function page() {
       </ColoredSection>
       <div className="container mx-auto overflow-hidden">
         <Program title="Study Tour" activities={studyTour} />
+
+        
       </div>
       <Footer className="pt-0" />
     </>
