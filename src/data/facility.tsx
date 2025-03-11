@@ -18,7 +18,7 @@ export const facilities: Array<{
   },
   {
     img: {
-      src: "/img/placeholder.png",
+      src: "/img/facility/multiroom.png",
       width: 4032,
       height: 2268,
       alt: "",
@@ -27,7 +27,7 @@ export const facilities: Array<{
   },
   {
     img: {
-      src: "/img/placeholder.png",
+      src: "/img/facility/resto.png",
       width: 4032,
       height: 2268,
       alt: "",
@@ -36,7 +36,7 @@ export const facilities: Array<{
   },
   {
     img: {
-      src: "/img/placeholder.png",
+      src: "/img/facility/class.png",
       width: 4032,
       height: 2268,
       alt: "",
@@ -45,7 +45,7 @@ export const facilities: Array<{
   },
   {
     img: {
-      src: "/img/placeholder.png",
+      src: "/img/facility/dorm.png",
       width: 4032,
       height: 2268,
       alt: "",

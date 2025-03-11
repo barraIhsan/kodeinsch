@@ -27,7 +27,10 @@ export default function Facility() {
           {facilities.map((facility, index) => (
             <CarouselItem key={index} className="min-w-96 pl-5 shrink">
               <div className="bg-white p-3 rounded-2xl space-y-2">
-                <Image {...facility.img} className="object-cover rounded-lg" />
+                <Image
+                  {...facility.img}
+                  className="object-cover rounded-lg h-48"
+                />
                 <p className="font-semibold py-1 px-2.5 rounded-lg bg-white drop-shadow-lg w-fit border">
                   {facility.desc}
                 </p>
