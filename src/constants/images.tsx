@@ -23,6 +23,18 @@ export const heros: Array<{
     width: 3385,
     height: 2281,
   },
+  {
+    src: "/img/hero/barraporto.png",
+    alt: "",
+    width: 774,
+    height: 549,
+  },
+  {
+    src: "/img/hero/yasinporto.png",
+    alt: "",
+    width: 253,
+    height: 549,
+  },
 ];
 
 export const affiliates: Array<{
