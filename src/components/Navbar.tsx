@@ -20,14 +20,14 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
-import { leftMenus, rightMenus } from "@/constants/data";
+import { leftMenus, rightMenus } from "@/data/navbar";
 
 export default function Navbar() {
   const [navMobileOpen, setNavMobileOpen] = useState(false);
 
   return (
     <>
-      <nav className="bg-white fixed top-0 border-b border-gray-200 z-50 inset-x-0">
+      <nav className="bg-white fixed top-0 border-b z-50 inset-x-0">
         <div className="container flex justify-between items-center px-5 md:px-12 py-5 mx-auto">
           <div className="flex items-center gap-4">
             <Link href="/">
@@ -196,7 +196,7 @@ export default function Navbar() {
                 </AccordionItem>
               ))}
             </Accordion>
-            <ul className="border-t border-gray-200 pt-4 flex gap-5">
+            <ul className="border-t pt-4 flex gap-5">
               {rightMenus.map((menu, index) => (
                 <li key={index}>
                   <Button

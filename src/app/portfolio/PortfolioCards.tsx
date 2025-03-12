@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 "@/components/ui/carousel";
-import { portfolio } from "@/constants/data";
+import { one } from "@/data/portfolio";
 import Image from "next/image";
 
 export default function PortfolioCards() {
@@ -9,7 +9,7 @@ export default function PortfolioCards() {
       <div className="flex items-center justify-between px-5 border-y border-gray-200"></div>
 
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-5 pt-5 pb-48">
-        {portfolio.map((item, index) => (
+        {one.map((item, index) => (
           <div className="" key={index}>
             <div className="bg-white border-gray-300 drop-shadow-lg p-3 rounded-2xl space-y-2">
               <Image

@@ -13,7 +13,7 @@ export default function page() {
     <>
       <Navbar />
       <ColoredSection
-        className="from-[#225EDB] to-[#205BD7] mt-24"
+        className="from-[#225EDB] to-[#205BD7] mt-20"
         left="hidden"
         right="-right-36 -top-16"
       >
@@ -21,7 +21,7 @@ export default function page() {
       </ColoredSection>
       <Mission />
       <ColoredSection
-        className="from-[#F9242C] to-[#D12329] !px-0 mt-0"
+        className="from-[#F9242C] to-[#D12329] px-0! mt-0"
         left="-left-[28rem] -bottom-20"
         right="-right-52 -top-16"
       >
@@ -30,7 +30,7 @@ export default function page() {
       <Affiliate />
 
       <ColoredSection
-        className="from-[#FF9D2D] to-kodein-orange !px-0 mt-0"
+        className="from-[#FF9D2D] to-kodein-orange px-0! mt-0"
         left="-left-36"
         right="-right-48 -top-16"
       >
