@@ -10,12 +10,12 @@ import {
 
 export default function HeadPortfolio() {
   return (
-    <main>
-      <div className="container flex justify-center pt-10 pb-5 border-gray-200 mx-auto border-x border b">
-        <h1 className="font-extrabold text-3xl">Daftar Generasi Angkatan</h1>
-      </div>
-      <div className="py-3 mx-auto border-gray-200 border-x">
-        <Pagination>
+    <section>
+      <div className="container border-gray-200 mx-auto border-x">
+        <h1 className="font-extrabold text-3xl text-center py-5">
+          Daftar Generasi Angkatan
+        </h1>
+        <Pagination className="w-full border-gray-200 border-x border-t">
           <PaginationContent>
             <PaginationItem>
               <PaginationPrevious href="#" />
@@ -44,6 +44,6 @@ export default function HeadPortfolio() {
           </PaginationContent>
         </Pagination>
       </div>
-    </main>
+    </section>
   );
 }

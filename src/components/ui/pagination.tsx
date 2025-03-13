@@ -49,7 +49,7 @@ const PaginationLink = ({
     className={cn(
       "px-3 py-2 rounded-md transition-colors", // Base styles
       isActive
-        ? "font-bold text-black outline outline-2 outline-black" // Active state
+        ? "font-bold text-black outline-2 outline-black" // Active state
         : "text-gray-400 hover:text-black", // Inactive state
       size,
       className
