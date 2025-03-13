@@ -37,11 +37,15 @@ export default function Program({
               <div
                 className={cn(
                   "border rounded-2xl bg-linear-to-b from-white to-slate-50 to-70% outline-2 outline-white -outline-offset-3 p-3 h-full",
-                  styles.shadow,
+                  styles.shadow
                 )}
               >
                 <Image
-                  src={"/img/activity/" + activity.src}
+                  src={
+                    activity.src
+                      ? "/img/activity/" + activity.src
+                      : "/img/placeholder.png"
+                  }
                   width={600}
                   height={263}
                   alt={activity.title}

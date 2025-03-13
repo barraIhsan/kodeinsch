@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Hero from "./Hero";
 import Program from "./Program";
-import { studyTour } from "@/data/activity";
+import { classmeeting, contest, event, studyTour } from "@/data/activity";
 
 export default function page() {
   return (
@@ -18,6 +18,9 @@ export default function page() {
       </ColoredSection>
       <div className="container mx-auto overflow-hidden">
         <Program title="Study Tour" activities={studyTour} />
+        <Program title="Classmeeting" activities={classmeeting} />
+        <Program title="Contests" activities={contest} />
+        <Program title="Event" activities={event} />
       </div>
       <Footer className="pt-0" />
     </>
