@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="42"
+   height="42"
+   viewBox="0 0 42 42"
+   fill="none"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="book.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="29.328096"
+     inkscape:cx="19.554628"
+     inkscape:cy="17.406517"
+     inkscape:window-width="2048"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <g
+     filter="url(#filter0_i_2731_189)"
+     id="g2">
+    <path
+       d="M10.5 3.5C9.57174 3.5 8.6815 3.86875 8.02513 4.52513C7.36875 5.1815 7 6.07174 7 7V35C7 35.9283 7.36875 36.8185 8.02513 37.4749C8.6815 38.1312 9.57174 38.5 10.5 38.5H29.75C31.1424 38.5 32.4777 37.9469 33.4623 36.9623C34.4469 35.9777 35 34.6424 35 33.25V8.75C35 7.35761 34.4469 6.02226 33.4623 5.03769C32.4777 4.05312 31.1424 3.5 29.75 3.5H28V20.6378C28 20.8109 27.9486 20.9801 27.8523 21.124C27.756 21.2679 27.6193 21.3801 27.4593 21.4462C27.2992 21.5123 27.1232 21.5295 26.9534 21.4956C26.7837 21.4616 26.6278 21.3781 26.5055 21.2555L23.3695 18.1195C23.2882 18.038 23.1917 17.9734 23.0854 17.9293C22.9791 17.8851 22.8651 17.8624 22.75 17.8624C22.6349 17.8624 22.5209 17.8851 22.4146 17.9293C22.3083 17.9734 22.2118 18.038 22.1305 18.1195L18.9945 21.2555C18.8722 21.3781 18.7163 21.4616 18.5466 21.4956C18.3768 21.5295 18.2008 21.5123 18.0407 21.4462C17.8807 21.3801 17.744 21.2679 17.6477 21.124C17.5514 20.9801 17.5 20.8109 17.5 20.6378V3.5H10.5Z"
+       fill="#09244B"
+       id="path1" />
+    <path
+       d="M 10.5,3.5 C 9.57174,3.5 8.6815,3.86875 8.02513,4.52513 7.36875,5.1815 7,6.07174 7,7 v 28 c 0,0.9283 0.36875,1.8185 1.02513,2.4749 C 8.6815,38.1312 9.57174,38.5 10.5,38.5 h 19.25 c 1.3924,0 2.7277,-0.5531 3.7123,-1.5377 C 34.4469,35.9777 35,34.6424 35,33.25 V 8.75 C 35,7.35761 34.4469,6.02226 33.4623,5.03769 32.4777,4.05312 31.1424,3.5 29.75,3.5 H 28 v 17.1378 c 0,0.1731 -0.0514,0.3423 -0.1477,0.4862 -0.0963,0.1439 -0.233,0.2561 -0.393,0.3222 -0.1601,0.0661 -0.3361,0.0833 -0.5059,0.0494 -0.1697,-0.034 -0.3256,-0.1175 -0.4479,-0.2401 l -3.136,-3.136 C 23.2882,18.038 23.1917,17.9734 23.0854,17.9293 22.9791,17.8851 22.8651,17.8624 22.75,17.8624 c -0.1151,0 -0.2291,0.0227 -0.3354,0.0669 -0.1063,0.0441 -0.2028,0.1087 -0.2841,0.1902 l -3.136,3.136 c -0.1223,0.1226 -0.2782,0.2061 -0.4479,0.2401 -0.1698,0.0339 -0.3458,0.0167 -0.5059,-0.0494 -0.16,-0.0661 -0.2967,-0.1783 -0.393,-0.3222 C 17.5514,20.9801 17.5,20.8109 17.5,20.6378 V 3.5 Z"
+       fill="url(#paint0_linear_2731_189)"
+       id="path2"
+       sodipodi:nodetypes="scsscssssssscsscccccscccccsscs" />
+  </g>
+  <path
+     d="M 27.997069,4 29.75,4 c 1.2598,0 2.468,0.50045 3.3588,1.39124 C 33.9996,6.28204 34.5,7.49022 34.5,8.75 v 24.5 c 0,1.2598 -0.5004,2.468 -1.3912,3.3588 C 32.218,37.4996 31.0098,38 29.75,38 H 10.5 C 9.70435,38 8.94129,37.6839 8.37868,37.1213 7.81607,36.5587 7.5,35.7957 7.5,35 V 7 C 7.5,6.20435 7.81607,5.44129 8.37868,4.87868 8.94129,4.31607 9.70435,4 10.5,4 H 17 v 16.6378 10e-5 c 10e-5,0.272 0.0808,0.538 0.2321,0.7641 0.1513,0.2262 0.3662,0.4024 0.6176,0.5063 0.2515,0.1039 0.5281,0.1309 0.7949,0.0776 0.2666,-0.0533 0.5114,-0.1845 0.7035,-0.3768 M 28.5,4.3580185 V 20.6378 v 10e-5 c -10e-5,0.272 -0.0808,0.538 -0.2321,0.7641 -0.1513,0.2262 -0.3662,0.4024 -0.6176,0.5063 -0.2515,0.1039 -0.5281,0.1309 -0.7949,0.0776 -0.2668,-0.0534 -0.5118,-0.1847 -0.7039,-0.3773 l -3.1356,-3.1355 -4e-4,-5e-4 C 22.9807,18.4377 22.9393,18.41 22.8937,18.3911 22.8482,18.3722 22.7993,18.3624 22.75,18.3624 c -0.0493,0 -0.0982,0.0098 -0.1437,0.0287 -0.0456,0.0189 -0.087,0.0466 -0.1218,0.0815 l -4e-4,5e-4 -3.138378,3.137568"
+     stroke="#ef7e30"
+     id="path3"
+     sodipodi:nodetypes="cscssssssssssccsccccccscccccccscccc" />
+  <defs
+     id="defs5">
+    <filter
+       id="filter0_i_2731_189"
+       x="7"
+       y="3.5"
+       width="28"
+       height="36"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood3" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         id="feBlend3" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix3" />
+      <feOffset
+         dy="1"
+         id="feOffset3" />
+      <feGaussianBlur
+         stdDeviation="0.5"
+         id="feGaussianBlur3" />
+      <feComposite
+         in2="hardAlpha"
+         operator="arithmetic"
+         k2="-1"
+         k3="1"
+         id="feComposite3" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 1 0 0 0 0 0.688889 0 0 0 0 0.333333 0 0 0 1 0"
+         id="feColorMatrix4" />
+      <feBlend
+         mode="normal"
+         in2="shape"
+         result="effect1_innerShadow_2731_189"
+         id="feBlend4" />
+    </filter>
+    <linearGradient
+       id="paint0_linear_2731_189"
+       x1="21"
+       y1="3.5"
+       x2="21"
+       y2="38.5"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#FF9953"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#EF7E30"
+         id="stop5" />
+    </linearGradient>
+  </defs>
+</svg>
