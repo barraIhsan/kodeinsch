@@ -28,7 +28,7 @@ export const programlainnya: Array<academic> = [
   {
     img: club.src,
     title: "Club",
-    desc: "Program dua bulan di Pare Kampung Inggris mengajarkan Bahasa Inggris lewat imersi, membangun kepercayaan diri siswa untuk berinteraksi dalam dunia profesional dan sosial digital.",
+    desc: "Kami memiliki dua pilihan club yaitu Programming dan Multimedia Club. Dua club ini dibuat untuk lebih mengasah dan lebih mendalami pelajaran yang telah diberikan di kelas.",
   },
   {
     img: koching.src,

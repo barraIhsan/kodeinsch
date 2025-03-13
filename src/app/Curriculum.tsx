@@ -4,9 +4,11 @@ import Image from "next/image";
 import styles from "./shadow.module.css";
 import { cn } from "@/lib/utils";
 
-export default function Curriculum() {
+export default function Curriculum({ className }: { className?: string }) {
   return (
-    <section className="pt-20 xl:pt-36 flex flex-col items-center gap-11">
+    <section
+      className={cn("pt-1.5 pb-12 flex flex-col items-center gap-11", className)}
+    >
       <Title className="text-white" shadow>
         Kurikulum Kami
       </Title>
@@ -15,7 +17,7 @@ export default function Curriculum() {
           <div
             className={cn(
               "bg-white rounded-2xl flex-1 min-w-72",
-              styles.shadow,
+              styles.shadow
             )}
             key={index}
           >
