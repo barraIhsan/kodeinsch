@@ -24,18 +24,18 @@ export const studyTour: Array<activity> = [
 
 export const classmeeting: Array<activity> = [
   {
-    src: "",
+    src: "c_1.png",
     title: "Clasmeeting.01",
     desc: "Acara Class Meeting pertama yaitu pada 2023, dalam seksi Desain dimenangkan oleh tim Yasin dan untuk seksi turnamen futsal dimenangkan oleh tim Umair.",
   },
   {
-    src: "",
-    title: "Clasmeeting.01",
+    src: "c_2.png",
+    title: "Clasmeeting.02",
     desc: "Acara Class Meeting kedua yaitu pada 2024, telah dimenangkan oleh tim Atha, Fadhil, Azzam, Farhan, Mulky.",
   },
   {
-    src: "",
-    title: "Clasmeeting.01",
+    src: "c_3.png",
+    title: "Clasmeeting.03",
     desc: "Acara Class Meeting ketiga yaitu clash of gen (persaingan antara angkatan) pada tahun 2024, dimenangkan oleh angkatan 1.",
   },
 ];
