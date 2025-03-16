@@ -52,7 +52,7 @@ export const contest: Array<activity> = [
     desc: "Siswa Sekolah Developer Indonesia, Muhammad Mulky Ayyubi serta Rais Fatihul Ihsan mengikuti lomba SPEECH yang diselenggarakan oleh sekolah Al-Binaa dan meraih Juara II.",
   },
   {
-    src: "",
+    src: "wafi.png",
     title: "Wafi Fest",
     desc: "Siswa Sekolah Developer Indonesia, Muhammad Mulky Ayyubi mengikuti lomba SPEECH yang diselenggarakan oleh Wafi, dan meraih Juara II",
   },
