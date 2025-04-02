@@ -4,8 +4,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "./Hero";
 import Program from "./Program";
 import { programlainnya, programunggulan } from "@/data/academic";
-import { Title } from "@/components/Text";
-import Image from "next/image";
 import Curriculum from "../Curriculum";
 
 export default function page() {
