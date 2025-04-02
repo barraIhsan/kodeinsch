@@ -17,11 +17,11 @@ export const leftMenus: Array<{
         desc: "",
         href: "/about",
       },
-      // {
-      //   label: "Akademik",
-      //   desc: "lorem ipsum dolor sit amet",
-      //   href: "#",
-      // },
+      {
+        label: "Akademik",
+        desc: "",
+        href: "/academic",
+      },
     ],
   },
   {

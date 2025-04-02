@@ -19,7 +19,7 @@ export const links: Array<{
       },
       {
         label: "Akademik",
-        href: "#",
+        href: "/academic",
       },
       {
         label: "Kontak",

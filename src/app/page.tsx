@@ -24,7 +24,7 @@ export default function Home() {
         right="-top-44 -right-36"
       >
         <About />
-        <Curriculum />
+        <Curriculum className="xl:pt-36" />
       </ColoredSection>
 
       <Affiliate />

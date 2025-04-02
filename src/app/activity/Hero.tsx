@@ -28,7 +28,7 @@ export default function Hero() {
           <div
             className={cn(
               "size-fit -right-5 bottom-14 absolute py-2.5 px-3 bg-linear-to-b from-[#2F6CD1] to-[#1A53C8] border border-[#1B52C8] text-white rounded-lg max-w-[15ch]",
-              styles.shadow,
+              styles.shadow
             )}
           >
             <p className="text-xs font-semibold">Kawah Ijen</p>
@@ -48,7 +48,7 @@ export default function Hero() {
           <div
             className={cn(
               "size-fit -left-5 top-8 absolute py-2.5 px-3 bg-linear-to-b from-[#F7252C] to-[#D12328] border border-[#D5232A] text-white rounded-lg max-w-[15ch]",
-              styles.shadow,
+              styles.shadow
             )}
           >
             <p className="text-xs font-semibold">Go-Kart</p>
