@@ -32,7 +32,7 @@ export default function Latest({
           {news.map((news, index) => (
             <CarouselItem
               key={index}
-              className="pl-5 md:basis-1/2 xl:basis-1/3"
+              className="pl-5 md:basis-1/2 "
             >
               <div
                 className={cn(

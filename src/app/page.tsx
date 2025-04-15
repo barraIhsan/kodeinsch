@@ -1,9 +1,4 @@
 import Navbar from "@/components/Navbar";
-<<<<<<< HEAD
-import Hero from "@/components/Hero";
-import Program from "@/components/Program";
-import About from "@/components/About";
-=======
 import Hero from "@/app/Hero";
 import Affiliate from "@/app/Affiliate";
 import Program from "@/app/Program";
@@ -14,7 +9,6 @@ import Roadmap from "@/app/Roadmap";
 import Testimonial from "@/components/Testimonial";
 import ColoredSection from "@/components/ColoredSection";
 import FloatingButton from "@/components/FloatingButton";
->>>>>>> 4b33628534dc17935c2baaf7e918b2f4c82f01a7
 
 export default function Home() {
   return (
@@ -22,9 +16,6 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Program />
-<<<<<<< HEAD
-      <About />
-=======
 
       {/* Blue Section */}
       <ColoredSection
@@ -50,7 +41,6 @@ export default function Home() {
 
       <Footer />
       <FloatingButton />
->>>>>>> 4b33628534dc17935c2baaf7e918b2f4c82f01a7
     </>
   );
 }

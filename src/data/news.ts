@@ -40,4 +40,14 @@ export const newsData: Array<newsModel> = [
     title: "Qur'an Camp",
     desc: "Siswa akan memoles kemampuan tilawah mereka di Pare, belajar tajwid dan makhraj, serta memperdalam hubungan spiritual dengan Al-Qur'an.",
   },
+  {
+    img: {
+      src: "1.png",
+      alt: "",
+      width: 1600,
+      height: 1204,
+    },
+    title: "Qur'an Camp",
+    desc: "Siswa akan memoles kemampuan tilawah mereka di Pare, belajar tajwid dan makhraj, serta memperdalam hubungan spiritual dengan Al-Qur'an.",
+  },
 ];

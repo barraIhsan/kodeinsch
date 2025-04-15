@@ -3,6 +3,9 @@ import ColoredSection from "@/components/ColoredSection";
 import Hero from "./Hero";
 import Latest from "./Latest";
 import { newsData } from "@/data/news";
+import Popular from "./Popular";
+import { populerNews } from "@/data/popular";
+import Footer from "@/components/Footer";
 
 export default function page() {
   return (
@@ -15,9 +18,15 @@ export default function page() {
       >
         <Hero />
       </ColoredSection>
-      <div className="container mx-auto overflow-hidden">
-        <Latest title="Terbaru" news={newsData} />
+      <div className="flex container mx-auto items-start">
+        <div className="overflow-hidden flex-2">
+          <Latest title="Terbaru" news={newsData} />
+        </div>
+        <div className="mt-12 flex-1">
+          <Popular title="Populer" popularNews={populerNews}></Popular>
+        </div>
       </div>
+      <Footer className="pt-0"></Footer>
     </>
   );
 }
