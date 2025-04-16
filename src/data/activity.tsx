@@ -20,6 +20,21 @@ export const studyTour: Array<activity> = [
     title: "Seminar POLBIS",
     desc: "Program dua bulan di Pare Kampung Inggris mengajarkan Bahasa Inggris lewat imersi, membangun kepercayaan diri siswa untuk berinteraksi dalam dunia profesional dan sosial digital.",
   },
+  {
+    src: "ijen.png",
+    title: "Kawah Ijen Tour",
+    desc: "Siswa berwisata ke Kawah Ijen untuk berinteraksi dengan FOREIGNER supaya bahasa inggris mereka bisa semakin lancar.",
+  },
+  {
+    src: "bromo.png",
+    title: "Bromo Tour",
+    desc: "Setelah 2 bulan di pare, siswa berwisata ke Bromo untuk melatih bahasa inggris mereka dengan berinteraksi dengan orang-orang FOREIGNER",
+  },
+  {
+    src: "kelut.png",
+    title: "Kelut Tour",
+    desc: "Siswa berwisata ke kelut, untuk melatih bahasa inggris (yang sudah mereka latih selama 1 bulan di Pare) dengan cara berinteraksi dengan orang orang sekitar sana.",
+  },
 ];
 
 export const classmeeting: Array<activity> = [
@@ -73,5 +88,15 @@ export const event: Array<activity> = [
     src: "sg_two.png",
     title: "Stadium General.02",
     desc: "Stadium General 2024 ini mengumpulkan semua calon wali santri Sekolah Developer Indonesia angkatan 2 untuk mendiskusikan beberap hal yang orang tua ingin ketahui terkait dengan sekolah kami.",
+  },
+  {
+    src: "gokart.png",
+    title: "Go-Kart",
+    desc: "Setelah belajar IT untuk sekian waktu, Siswa healing dengan bermain GO-kart agar mereka semangat ketika balik belajar.",
+  },
+  {
+    src: "gumul.png",
+    title: "Wisata Gumul, Pare",
+    desc: "Siswa-siswa Sekolah Developer Indonesia berlibur ke Gumul, Pare, Kediri setelah belajar Tahsin selama di Qur’an Camp",
   },
 ];
